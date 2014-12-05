@@ -7,3 +7,4 @@ tmp
 .idea
 /apache_logs/
 /nginx_logs/
+/npm-debug.log
