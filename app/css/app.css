@@ -30,9 +30,13 @@
 }
 
 .navbar-inverse .navbar-brand {
-  color: rgb(210, 210, 255);
+  color: rgba(245, 245, 255, 0.7);
 }
 
 .navbar-inverse .navbar-brand img {
   margin-right: 10px;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+  color: rgba(245, 245, 255, 0.7);
 }
