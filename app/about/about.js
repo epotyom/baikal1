@@ -7,15 +7,15 @@ angular.module('baikalApp.about', ['ngRoute'])
   .when('/post/:pid', {
     templateUrl: 'post/view.html',
     controller: 'PostviewCtrl',
-  });
+  })
   .when('/about/:category', {
     templateUrl: 'post/list.html',
     controller: 'PostlistCtrl',
   })  
   .when('/contacts', {
-    templateUrl: 'post/view.html',
+    templateUrl: 'post/contacts.html',
     controller: 'ContactsCtrl',
-  })
+  });
 }])
 
 .controller('PostlistCtrl', ['$scope', '$routeParams', 'Post', 'Category', function($scope, $routeParams, Post, Category) {
