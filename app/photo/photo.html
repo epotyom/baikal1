@@ -13,7 +13,7 @@
       <img ng-src="{{ph.url}}" alt="{{ph.title}}">
       <div class="carousel-caption">
 	    <h3>{{ {res: ph, attr: 'title'} | translate_res}}</h3>
-	    <p>{{ph.description}}</p>
+	    <p>{{ {res: ph, attr: 'description'} | translate_res}}</p>
 	  </div>
     </div>
   </div>

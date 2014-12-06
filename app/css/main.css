@@ -142,7 +142,7 @@ a.dropdown-toggle {
     bottom: 0;
     left: 0;
     margin-left: 5px;
-    width: 100%;
+    /*width: 100%;*/
     opacity: 0;
 }
 
