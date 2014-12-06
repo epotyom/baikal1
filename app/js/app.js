@@ -9,6 +9,7 @@ angular.module('baikalApp', [
   'baikalApp.version',
   'baikalApp.services',
   'baikalApp.controllers',
+  'baikalApp.filters',
   'pascalprecht.translate',
   'ngCookies',
 ]).

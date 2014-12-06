@@ -2,22 +2,19 @@
 	{
 		"url": "images/photo/2.jpg",
 		"thumb": "images/photo/TN_2.jpg",
-		"title_ru": "Первое фото",
-		"title_en": "First_photo",
+		"title": "Первое фото",
 		"description": "Самое первое фото тут."
 	},
 	{
 		"url": "images/photo/3.jpg",
 		"thumb": "images/photo/TN_3.jpg",
-		"title_ru": "Второе фото",
-		"title_en": "Второе фото",
+		"title": "Второе фото",
 		"description": "Самое второе фото тут."
 	},
 	{
 		"url": "images/photo/4.jpg",
 		"thumb": "images/photo/TN_4.jpg",
-		"title_ru": "Четвертое фото",
-		"title_en": "Четвертое фото",
+		"title": "Четвертое фото",
 		"description": "Самое четвертое фото тут."
 	}
 ]
