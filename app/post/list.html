@@ -8,11 +8,11 @@
                     <div class="post-preview">
                         <a href="#/post/{{post.id}}">
                             <h4 class="post-title">
-                                {{post.title}}
+                                {{ {res: post, attr: 'title'} | translate_res}}
                             </h4>
                         </a>
                         <p>
-                            {{post.description}}
+                            {{ {res: post, attr: 'description'} | translate_res}}
                         </p>                    
                         <p class="post-meta">{{post.date  | date:'dd.MM.yyyy'}}</p>
                     </div>
