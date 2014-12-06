@@ -59,5 +59,8 @@
   .navbar-inverse .navbar-brand img{
     position:absolute;
   }
+  .navbar-inverse .navbar-brand span{
+    padding-left: 35px;
+  }
 }
 
