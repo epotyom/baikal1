@@ -30,7 +30,7 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 		document.getElementById('audio_audio').play();
 	}
 }])
-.controller('FooterCtrl', ['$scope', function($scope) {
+.controller('FooterCtrl', ['$scope', '$translate', function($scope, $translate) {
 	$scope.copyright = "Все права защищены &copy; 2014, Александр Бурмейстер";
 	$scope.changeLanguage = function (key) {
 	    $translate.use(key);
