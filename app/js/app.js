@@ -17,4 +17,13 @@ config(['$routeProvider', function($routeProvider) {
     return function(text) {
         return $sce.trustAsHtml(text);
     };
-}]);
+}])
+.config(function ($translateProvider) {
+  $translateProvider.translations('ru', {
+    TITLE: 'Лига Байкальских Капитанов'
+  });
+  $translateProvider.translations('en', {
+    TITLE: 'Baikal Captain Ligue'
+  });
+  $translateProvider.preferredLanguage('ru');
+});

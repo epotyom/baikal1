@@ -32,4 +32,7 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 }])
 .controller('FooterCtrl', ['$scope', function($scope) {
 	$scope.copyright = "Все права защищены &copy; 2014, Александр Бурмейстер";
+	$scope.changeLanguage = function (key) {
+	    $translate.use(key);
+	};
 }]);
