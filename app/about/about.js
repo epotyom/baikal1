@@ -29,6 +29,6 @@ angular.module('baikalApp.about', ['ngRoute'])
 	$scope.post = Post.get({pid: $routeParams.pid});
 }])
 
-.controller('ContactsCtrl', ['$scope', 'Post', function($scope, $routeParams, Post) {
+.controller('ContactsCtrl', ['$scope', 'Post', function($scope, Post) {
   $scope.post = Post.get({pid: "contacts"});
 }]);
