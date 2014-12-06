@@ -24,5 +24,5 @@ angular.module('baikalApp.about', ['ngRoute'])
 .controller('PostviewCtrl', ['$scope', '$routeParams', 'Post', 'Category', function($scope, $routeParams, Post, Category) {
 	$scope.categories = Category.get();
 	$scope.category = $scope.categories[$routeParams.cid];
-	$scope.posts = Post.get({pid: $routeParams.id});
+	$scope.post = Post.get({pid: $routeParams.id});
 }]);

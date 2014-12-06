@@ -11,6 +11,7 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 		    playNext();
 		});
 	});
+	$scope.copyright = "Все права защищены &copy; 2014, Александр Бурмейстер";
 
 	$scope.musicPlayPause = function(action) {
 		if (action == 'play') {
