@@ -18,9 +18,9 @@ angular.module('baikalApp.about', ['ngRoute'])
   });
 }])
 
-.controller('PostlistCtrl', ['$scope', '$routeParams', 'Post', 'Category', function($scope, $routeParams, Post, Category) {
+.controller('PostlistCtrl', ['$scope', '$routeParams', '$translate', 'Post', 'Category', function($scope, $routeParams, $translate, Post, Category) {
 	$scope.categories = Category.get(function(category) {
-		$scope.category = $scope.categories['family'];
+		$scope.category = $scope.categories[$routeParams.category+'_'+$translate.use()];
 	});
 	$scope.posts = Post.query({pid: $routeParams.category});
 }])
