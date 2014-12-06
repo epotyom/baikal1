@@ -33,6 +33,5 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 .controller('FooterCtrl', ['$scope', '$translate', function($scope, $translate) {
 	$scope.languageChange = function (key) {
 	    $translate.use(key);
-	    alert($translate.use());
 	};
 }]);

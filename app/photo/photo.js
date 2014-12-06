@@ -10,5 +10,5 @@ angular.module('baikalApp.photo', ['ngRoute'])
 }])
 
 .controller('PhotoCtrl', ['$scope', '$routeParams', 'Photos', function($scope, $routeParams, Photos) {
-	$scope.photos = Photos.query({season: $routeParams.season, lang: 'en'});
+	$scope.photos = Photos.query({season: $routeParams.season});
 }]);

@@ -2,9 +2,9 @@
 
 angular.module('baikalApp.services', ['ngResource'])
 
-.factory('Photos', ['$resource',
-  function($resource){
-    return $resource('photo/:season-:lang.json', {}, {});
+.factory('Photos', ['$resource', '$translate',
+  function($resource, $translate){
+    return $resource('photo/:season-:lang.json', {lang: $translate.use()}, {});
   }])
 
 .factory('Music', ['$resource',
