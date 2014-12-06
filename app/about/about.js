@@ -11,7 +11,11 @@ angular.module('baikalApp.about', ['ngRoute'])
   .when('/about/:category', {
     templateUrl: 'post/list.html',
     controller: 'PostlistCtrl',
-  })  
+  })
+  .when('/journey/:category', {
+    templateUrl: 'post/list.html',
+    controller: 'PostlistCtrl',
+  })
   .when('/contacts', {
     templateUrl: 'post/contacts.html',
     controller: 'ContactsCtrl',
