@@ -36,6 +36,7 @@ config(['$routeProvider', function($routeProvider) {
     YOGA: 'Йога',
     OUR_GUESTS: 'Наши гости',
     JOURNEY: 'Путешествия',
+    VOLUNTEERS: 'Волонтёры',
     CONTACTS: 'Контакты',
   });
   $translateProvider.translations('en', {
@@ -54,6 +55,7 @@ config(['$routeProvider', function($routeProvider) {
     YOGA: 'Yoga',
     OUR_GUESTS: 'Our guests',
     JOURNEY: 'Journey',
+    VOLUNTEERS: 'Volunteers',
     CONTACTS: 'Contacts',
   });
   $translateProvider.preferredLanguage('ru');
