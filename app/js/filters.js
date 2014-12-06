@@ -6,4 +6,4 @@ angular.module('baikalApp.filters', ['ngResource'])
   return function(input) {
     return input.res[input.attr+'_'+$translate.use()];
   };
-});
+}]);
