@@ -40,3 +40,23 @@
 .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
   color: rgba(255, 255, 255, 0.8);
 }
+
+.navbar-nav > li > a {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.navbar-inverse .navbar-brand {
+    font-size: 20px;
+}
+
+@media (max-width: 767px) {
+  .slide-preview .carousel-indicators:active,.slide-preview .carousel-indicators:hover {
+      display: none;
+  }
+}
+@media (min-width: 768px) {
+  .slide-preview .carousel-indicators:active,.slide-preview .carousel-indicators:hover {
+      opacity: 1;
+  }
+}
