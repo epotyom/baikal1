@@ -29,4 +29,7 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 		jQuery('#audio_audio').load();
 		document.getElementById('audio_audio').play();
 	}
+}])
+.controller('FooterCtrl', ['$scope', function($scope) {
+	$scope.copyright = "Все права защищены &copy; 2014, Александр Бурмейстер";
 }]);
