@@ -4,7 +4,7 @@ angular.module('baikalApp.services', ['ngResource'])
 
 .factory('Photos', ['$resource',
   function($resource){
-    return $resource('photo/:season.json', {}, {});
+    return $resource('photo/:season-:lang.json', {}, {});
   }])
 
 .factory('Music', ['$resource',
@@ -14,10 +14,10 @@ angular.module('baikalApp.services', ['ngResource'])
 
 .factory('Post', ['$resource',
   function($resource){
-    return $resource('post/:pid.json', {}, {});
+    return $resource('post/:pid-:lang.json', {}, {});
   }])
 
 .factory('Category', ['$resource',
   function($resource){
-    return $resource('post/categories.json', {}, {});
+    return $resource('post/categories-:lang.json', {}, {});
   }]);
