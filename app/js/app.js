@@ -38,6 +38,9 @@ config(['$routeProvider', function($routeProvider) {
     JOURNEY: 'Путешествия',
     VOLUNTEERS: 'Волонтёры',
     CONTACTS: 'Контакты',
+    BAIKAL_JOURNEY_TITLE: 'Путешествие по Байкалу',
+    BAIKAL_JOURNEY_DESCRIPTION: 'Откройте для себя мир красоты, чистого воздуха, птичек и цветочков.',
+    BAIKAL_JOURNEY_BUTTON: 'ОТПРАВИТЬСЯ В ПУТЕШЕСТВИЕ',
   });
   $translateProvider.translations('en', {
     TITLE: 'Baikal Captain Ligue',
@@ -57,6 +60,9 @@ config(['$routeProvider', function($routeProvider) {
     JOURNEY: 'Journey',
     VOLUNTEERS: 'Volunteers',
     CONTACTS: 'Contacts',
+    BAIKAL_JOURNEY_TITLE: 'Baikal Journey',
+    BAIKAL_JOURNEY_DESCRIPTION: 'Discovery the world of beauty, fresh air, birds and flours.',
+    BAIKAL_JOURNEY_BUTTON: 'GO TO JOURNEY',
   });
   $translateProvider.preferredLanguage('ru');
 });
