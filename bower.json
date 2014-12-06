@@ -11,6 +11,6 @@
     "angular-loader": "1.2.x",
     "angular-mocks": "~1.2.x",
     "angular-resource": "~1.2.0",
-    "angular-translate": "~1.2.x"
+    "angular-translate": "~2.4.2"
   }
 }
