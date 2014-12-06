@@ -52,11 +52,12 @@
 
 @media (max-width: 767px) {
   .navbar-inverse .navbar-brand {
-      white-space: nowrap;
-      max-width: calc(100% - 60px);
+    white-space: nowrap;
+    max-width: calc(100% - 60px);
+    overflow: hidden;
   }
-  .navbar-inverse .navbar-brand span{
-      overflow: hidden;
+  .navbar-inverse .navbar-brand img{
+    position:absolute;
   }
 }
 
