@@ -43,6 +43,11 @@ config(['$routeProvider', function($routeProvider) {
     BAIKAL_JOURNEY_TITLE: 'Путешествие по Байкалу',
     BAIKAL_JOURNEY_DESCRIPTION: 'Откройте для себя мир красоты, чистого воздуха, птичек и цветочков.',
     BAIKAL_JOURNEY_BUTTON: 'ОТПРАВИТЬСЯ В ПУТЕШЕСТВИЕ',
+    OUR_CONTACTS: 'Наши контакты',
+    ADDRESS: 'Адрес',
+    ADDRESS_TEXT: 'г. Иркутск, ул. Лермонтова, д. 777, кв. 7',
+    PHONE: 'Телефон',
+    PHONE_TEXT: '+7 (3952) 33-44-55'
   });
   $translateProvider.translations('en', {
     TITLE: 'Baikal Captain Ligue',
@@ -65,6 +70,11 @@ config(['$routeProvider', function($routeProvider) {
     BAIKAL_JOURNEY_TITLE: 'Baikal Journey',
     BAIKAL_JOURNEY_DESCRIPTION: 'Discovery the world of beauty, fresh air, birds and flours.',
     BAIKAL_JOURNEY_BUTTON: 'GO TO JOURNEY',
+    OUR_CONTACTS: 'Our contacts',
+    ADDRESS: 'Address',
+    ADDRESS_TEXT: 'Irkutsk, ul. Lermontova, 777, 7',
+    PHONE: 'Phone',
+    PHONE_TEXT: '+7 (3952) 33-44-55'
   });
   $translateProvider.preferredLanguage('ru');
   $translateProvider.useLocalStorage();
