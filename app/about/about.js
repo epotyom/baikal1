@@ -8,7 +8,7 @@ angular.module('baikalApp.about', ['ngRoute'])
     templateUrl: 'post/list.html',
     controller: 'PostlistCtrl',
   })
-  .when('/post/:cid', {
+  .when('/post/:pid', {
     templateUrl: 'post/view.html',
     controller: 'PostviewCtrl',
   });
@@ -22,7 +22,5 @@ angular.module('baikalApp.about', ['ngRoute'])
 }])
 
 .controller('PostviewCtrl', ['$scope', '$routeParams', 'Post', 'Category', function($scope, $routeParams, Post, Category) {
-	$scope.categories = Category.get();
-	$scope.category = $scope.categories[$routeParams.cid];
-	$scope.post = Post.get({pid: $routeParams.id});
+	$scope.post = Post.get({pid: $routeParams.pid});
 }]);
