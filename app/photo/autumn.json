@@ -1,5 +1,13 @@
 [
 	{
+		"url": "images/photo/11.jpg",
+		"thumb": "images/photo/TN_11.jpg",
+		"title_ru": "Десятое фото",
+		"title_en": "Ten photo",
+		"description_ru": "Осеннее одиннадцатое фото тут.",
+		"description_en": "Ten photo description."
+	},
+	{
 		"url": "images/photo/2.jpg",
 		"thumb": "images/photo/TN_2.jpg",
 		"title_ru": "Первое фото",

@@ -2,49 +2,65 @@
 	{
 		"url": "images/photo/5.jpg",
 		"thumb": "images/photo/TN_5.jpg",
-		"title": "Первое фото",
-		"description": "Летнее первое фото тут."
+		"title_ru": "Первое фото",
+		"title_en": "First photo",
+		"description_ru": "Летнее первое фото тут.",
+		"description_en": "First summer photo."
 	},
 	{
 		"url": "images/photo/6.jpg",
 		"thumb": "images/photo/TN_6.jpg",
-		"title": "Второе фото",
-		"description": "Летнее второе фото тут."
+		"title_ru": "Второе фото",
+		"title_en": "Second photo",
+		"description_ru": "Летнее второе фото тут.",
+		"description_en": "Second summer photo."
 	},
 	{
 		"url": "images/photo/7.jpg",
 		"thumb": "images/photo/TN_7.jpg",
-		"title": "Четвертое фото",
-		"description": "Летнее четвертое фото тут."
+		"title_ru": "Четвертое фото",
+		"title_en": "Fourth photo",
+		"description_ru": "Летнее четвертое фото тут.",
+		"description_en": "Fourth summer photo description."
 	},
 	{
 		"url": "images/photo/8.jpg",
 		"thumb": "images/photo/TN_8.jpg",
-		"title": "Седьмое фото",
-		"description": "Летнее седьмое фото тут."
+		"title_ru": "Седьмое фото",
+		"title_en": "Seven photo",
+		"description_ru": "Летнее седьмое фото тут.",
+		"description_en": "Seven summer photo."
 	},
 	{
 		"url": "images/photo/9.jpg",
 		"thumb": "images/photo/TN_9.jpg",
-		"title": "Восьмое фото",
-		"description": "Летнее восьмое фото тут."
+		"title_ru": "Восьмое фото",
+		"title_en": "Eight photo",
+		"description_ru": "Летнее восьмое фото тут.",
+		"description_en": "Eight photo description."
 	},
 	{
 		"url": "images/photo/10.jpg",
 		"thumb": "images/photo/TN_10.jpg",
-		"title": "Девятое фото",
-		"description": "Летнее четвертое фото тут."
+		"title_ru": "Девятое фото",
+		"title_en": "Nine photo",
+		"description_ru": "Летнее четвертое фото тут.",
+		"description_en": "Nine photo description."
 	},
 	{
 		"url": "images/photo/11.jpg",
 		"thumb": "images/photo/TN_11.jpg",
-		"title": "Десятое фото",
-		"description": "Летнее одиннадцатое фото тут."
+		"title_ru": "Десятое фото",
+		"title_en": "Ten photo",
+		"description_ru": "Летнее одиннадцатое фото тут.",
+		"description_en": "Ten photo description."
 	},
 	{
 		"url": "images/photo/12.jpg",
 		"thumb": "images/photo/TN_12.jpg",
-		"title": "Одиннадцатое фото",
-		"description": "Летнее четвертое фото тут."
+		"title_ru": "Одиннадцатое фото",
+		"title_en": "Eleven photo",
+		"description_ru": "Летнее четвертое фото тут.",
+		"description_en": "Eleven photo description."
 	}
 ]

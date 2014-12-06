@@ -8,6 +8,14 @@
 		"description_en": "There is first photo."
 	},
 	{
+		"url": "images/photo/10.jpg",
+		"thumb": "images/photo/TN_10.jpg",
+		"title_ru": "Девятое фото",
+		"title_en": "Nine photo",
+		"description_ru": "Зимнее четвертое фото тут.",
+		"description_en": "Nine photo description."
+	},
+	{
 		"url": "images/photo/3.jpg",
 		"thumb": "images/photo/TN_3.jpg",
 		"title_ru": "Второе фото",

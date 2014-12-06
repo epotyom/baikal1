@@ -2,8 +2,8 @@
 
 angular.module('baikalApp.services', ['ngResource'])
 
-.factory('Photos', ['$resource', '$translate',
-  function($resource, $translate){
+.factory('Photos', ['$resource',
+  function($resource){
     return $resource('photo/:season.json', {}, {});
   }])
 
@@ -12,12 +12,12 @@ angular.module('baikalApp.services', ['ngResource'])
     return $resource('music/list.json', {}, {});
   }])
 
-.factory('Post', ['$resource', '$translate',
-  function($resource, $translate){
-    return $resource('post/:pid-:lang.json', {lang: $translate.use()}, {});
+.factory('Post', ['$resource',
+  function($resource){
+    return $resource('post/:pid.json', {}, {});
   }])
 
-.factory('Category', ['$resource', '$translate',
-  function($resource, $translate){
-    return $resource('post/categories-:lang.json', {lang: $translate.use()}, {});
+.factory('Category', ['$resource',
+  function($resource){
+    return $resource('post/categories.json', {}, {});
   }]);
