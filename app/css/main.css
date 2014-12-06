@@ -197,4 +197,5 @@ a.dropdown-toggle {
 	padding-top: 65px;
 	padding-bottom: 60px;
 	background-image: url("../images/bg_header.jpg");
+	min-height: 100vh;
 }
