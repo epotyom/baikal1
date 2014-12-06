@@ -6,14 +6,14 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "angular": "1.2.x",
-    "angular-route": "1.2.x",
-    "angular-loader": "1.2.x",
-    "angular-mocks": "~1.2.x",
-    "angular-resource": "~1.2.0",
-    "angular-translate": "~2.4.2",
-    "angular-translate-storage-local": "~2.4.2",
-    "angular-translate-storage-cookie": "~2.4.2",
-    "angular-cookies":  "~1.2.x"
+    "angular": "latest",
+    "angular-route": "latest",
+    "angular-loader": "latest",
+    "angular-mocks": "latest",
+    "angular-resource": "latest",
+    "angular-translate": "latest",
+    "angular-translate-storage-local": "latest",
+    "angular-translate-storage-cookie": "latest",
+    "angular-cookies":  "latest"
   }
 }
