@@ -21,7 +21,10 @@ config(['$routeProvider', function($routeProvider) {
 }])
 .config(function ($translateProvider) {
   $translateProvider.translations('ru', {
-    TITLE: 'Лига Байкальских Капитанов'
+    TITLE: 'Лига Байкальских Капитанов',
+    COPYRIGHT_TEXT: 'Все права защищены',
+    COPYRIGHT_AUTHOR: 'Александр Бурмейстер',
+    
   });
   $translateProvider.translations('en', {
     TITLE: 'Baikal Captain Ligue'
