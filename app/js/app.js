@@ -65,5 +65,5 @@ config(['$routeProvider', function($routeProvider) {
     BAIKAL_JOURNEY_BUTTON: 'GO TO JOURNEY',
   });
   $translateProvider.preferredLanguage('ru');
-  $translateProvider.rememberLanguage(true);
+  $translateProvider.useLocalStorage();
 });
