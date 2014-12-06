@@ -199,3 +199,7 @@ a.dropdown-toggle {
 	background-image: url("../images/bg_header.jpg");
 	min-height: 100vh;
 }
+
+a{
+    cursor: pointer;
+}
