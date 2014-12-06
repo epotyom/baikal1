@@ -52,7 +52,7 @@
 
 @media (max-width: 767px) {
   .navbar-inverse .navbar-brand {
-      overflow: hidden;
+      overflow-x: hidden;
       max-width: calc(100% - 60px);
   }
 }
