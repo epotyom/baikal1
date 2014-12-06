@@ -10,6 +10,7 @@ angular.module('baikalApp', [
   'baikalApp.services',
   'baikalApp.controllers',
   'pascalprecht.translate',
+  'ngCookies',
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/home'});
