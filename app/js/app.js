@@ -9,6 +9,7 @@ angular.module('baikalApp', [
   'baikalApp.version',
   'baikalApp.services',
   'baikalApp.controllers',
+  'pascalprecht.translate',
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/home'});
