@@ -17,7 +17,7 @@
 		#head .btn-default.active { color:#fff; -webkit-box-shadow:inset 0px 0px 0px 3px #fff; -moz-box-shadow:inset 0px 0px 0px 3px #fff; box-shadow:inset 0px 0px 0px 3px #fff; background: transparent; }
 
 @media (max-width: 767px) {
-	#head { min-height:420px; padding-top:160px; }
+	#head { min-height:420px; }
 	#head .lead { font-size: 34px; }
 }
 
@@ -98,8 +98,11 @@ body.home {
   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
   min-height: 100vh; /* These two lines are counted as one :-)       */
 
-  display: flex;
+  /*display: flex;
   align-items: center;
+  -ms-align-items: center;
+*/
+
 }
 
 .carousel .item,.carousel .active{height:100vh;}
@@ -202,4 +205,36 @@ a.dropdown-toggle {
 
 a{
     cursor: pointer;
+}
+
+html,body,.content-div {
+	height: 100%;
+}
+
+.home-outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.home-middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.home-inner {
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+.top-bottom-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
