@@ -238,3 +238,13 @@ html,body,.content-div {
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.well-home {
+    background-color: rgba(244, 244, 244, 0.4);
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #F5F5F5;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05) inset;
+    border-radius: 20px;
+}
