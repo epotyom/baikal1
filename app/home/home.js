@@ -10,7 +10,13 @@ angular.module('baikalApp.home', ['ngRoute'])
 }])
 
 .controller('HomeCtrl', ['$scope',function($scope) {
-	$scope.home_background = {'background-image': 'url(images/bg_header.jpg)'};
+	$scope.home_background = {
+		'background': 'url(images/bg_header.jpg) no-repeat center center fixed',
+		'-webkit-background-size': 'cover',
+		'-moz-background-size': 'cover',
+		'-o-background-size': 'cover',
+		'background-size': 'cover',
+	};
 	jQuery('#mainButton').popover();
 	$scope.mainButtonClick = function() {
 
