@@ -75,11 +75,7 @@
           </li>
           <li><a href="#/contacts" translate="CONTACTS">Контакты</a></li>
         </ul>
-        <div style="padding: 10px;" class="pull-right">
-          <button type="button" class="btn btn-default btn-xs musicPlayButton" ng-click="musicPlayPause(music.action)">
-            <span ng-class="{'glyphicon': true, 'glyphicon-play': (music.action == 'play'), 'glyphicon-pause': (music.action == 'pause')}"></span>
-          </button>
-        </div>
+        
       </div><!--/.nav-collapse -->
     </div>
   </div> 
@@ -89,6 +85,12 @@
   <div ng-view class="content-div"></div>
 
   <footer class="footer"  ng-controller="FooterCtrl">
+
+    <div style="padding: 10px;" class="pull-right">
+      <button type="button" class="btn btn-default btn-xs musicPlayButton" ng-click="musicPlayPause(music.action)">
+        <span ng-class="{'glyphicon': true, 'glyphicon-play': (music.action == 'play'), 'glyphicon-pause': (music.action == 'pause')}"></span>
+      </button>
+    </div>
 
     <div class="footer2">
       <div class="top-bottom-container">
