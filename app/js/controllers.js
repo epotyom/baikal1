@@ -2,7 +2,14 @@
 
 angular.module('baikalApp.controllers', ['ngRoute'])
 
-.controller('HeaderCtrl', ['$scope', '$routeParams', 'Music', function($scope, $routeParams, Music) {
+.controller('HeaderCtrl', ['$scope', '$routeParams', function($scope, $routeParams) {
+
+}])
+.controller('FooterCtrl', ['$scope', '$translate', 'Music', function($scope, $translate, Music) {
+	$scope.languageChange = function (key) {
+	    $translate.use(key);
+	};
+
 	$scope.music = {action: 'play', current: 0};
 	$scope.music.list = Music.query(function() {
 		document.getElementById('audio_mp3').src = $scope.music.list[0].mp3;
@@ -11,7 +18,6 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 		    playNext();
 		});
 	});
-	$scope.copyright = "Все права защищены &copy; 2014, Александр Бурмейстер";
 
 	$scope.musicPlayPause = function(action) {
 		if (action == 'play') {
@@ -29,9 +35,4 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 		jQuery('#audio_audio').load();
 		document.getElementById('audio_audio').play();
 	}
-}])
-.controller('FooterCtrl', ['$scope', '$translate', function($scope, $translate) {
-	$scope.languageChange = function (key) {
-	    $translate.use(key);
-	};
 }]);
