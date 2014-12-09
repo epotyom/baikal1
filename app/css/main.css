@@ -17,8 +17,7 @@
 		#head .btn-default.active { color:#fff; -webkit-box-shadow:inset 0px 0px 0px 3px #fff; -moz-box-shadow:inset 0px 0px 0px 3px #fff; box-shadow:inset 0px 0px 0px 3px #fff; background: transparent; }
 
 @media (max-width: 767px) {
-	#head { min-height:420px; }
-	#head .lead { font-size: 34px; }
+	#head .lead { font-size: 24px; }
 }
 
 
