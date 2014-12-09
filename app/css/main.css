@@ -20,11 +20,9 @@
 	#head .lead { font-size: 24px; }
 }
 
-
 /* Autohide navbar */
 .slideUp { top:-100px; }
 .headroom { -webkit-transition: all 0.4s ease-out; -moz-transition: all 0.4s ease-out; -o-transition: all 0.4s ease-out; transition: all 0.4s ease-out; }
-
 
 /* Highlights (in jumbotron in most cases) */
 .highlight { margin-top:40px; }
@@ -185,8 +183,9 @@ a.dropdown-toggle {
 }
 
 .musicPlayButton{
-	padding: 6px 12px;
-	color: rgba(255,255,255,.6);
+	padding: 3px 6px;
+	color: rgba(255, 255, 255, 0.6);
+	font-size: xx-small;
 }
 
 .musicPlayButton:hover,
