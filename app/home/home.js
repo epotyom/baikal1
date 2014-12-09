@@ -17,7 +17,7 @@ angular.module('baikalApp.home', ['ngRoute'])
 		'-o-background-size': 'cover',
 		'background-size': 'cover',
 	};
-	jQuery('#mainButton').popover();
+	//jQuery('#mainButton').popover();
 	$scope.mainButtonClick = function() {
 
 	}
