@@ -71,7 +71,7 @@ config(['$routeProvider', function($routeProvider) {
     BAIKAL_JOURNEY_TITLE: 'BAIKAL LEAGUE of ICE CAPTAINS named after A.BURMEISTER',
     BAIKAL_JOURNEY_DESCRIPTION: 'In Siberia we say: «One that has tried water from the sacred lake Baikal, will live a long and happy life». There is still an ancient culture of communication between a Man and Nature. Baikal charms, gives wisdom, the real understanding of beauty, and reveals inner powers. Baikal gives an opportunity to experiense different elements, to initiated: storms, savage gales, smooth calm, and the cristal-clear ice!  Baikal forms spiritual culture and true relationship between people. Days spent on the lake Baikal, the Lord doesn\'t count against past years.',
     BAIKAL_JOURNEY_AUTHOR: 'Aleksander Burmeister',
-    BAIKAL_JOURNEY_BUTTON: 'GO TO JOURNEY',
+    BAIKAL_JOURNEY_BUTTON: 'The first step to my adventure',
     OUR_CONTACTS: 'Our contacts',
     ADDRESS: 'Address',
     ADDRESS_TEXT: 'Irkutsk, ul. Lermontova, 777, 7',
