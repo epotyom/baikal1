@@ -48,7 +48,8 @@ config(['$routeProvider', function($routeProvider) {
     ADDRESS: 'Адрес',
     ADDRESS_TEXT: 'г. Иркутск, ул. Лермонтова, д. 777, кв. 7',
     PHONE: 'Телефон',
-    PHONE_TEXT: '+7 (3952) 33-44-55'
+    PHONE_TEXT: '+7 (3952) 33-44-55',
+    MUSIC_PLAY: 'Включить музыку'
   });
   $translateProvider.translations('en', {
     TITLE: 'Baikal Captain Ligue',
@@ -76,7 +77,8 @@ config(['$routeProvider', function($routeProvider) {
     ADDRESS: 'Address',
     ADDRESS_TEXT: 'Irkutsk, ul. Lermontova, 777, 7',
     PHONE: 'Phone',
-    PHONE_TEXT: '+7 (3952) 33-44-55'
+    PHONE_TEXT: '+7 (3952) 33-44-55',
+    MUSIC_PLAY: 'Play music'
   });
   $translateProvider.preferredLanguage('ru');
   $translateProvider.useLocalStorage();
