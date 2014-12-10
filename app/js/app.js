@@ -23,7 +23,7 @@ config(['$routeProvider', function($routeProvider) {
 }])
 .config(function ($translateProvider) {
   $translateProvider.translations('ru', {
-    TITLE: 'Лига Байкальских Капитанов',
+    TITLE: 'Лига Байкальских Ледовых Капитанов',
     COPYRIGHT_TEXT: 'Все права защищены',
     COPYRIGHT_AUTHOR: 'Александр Бурмейстер',
     PHOTO: 'Фото',
@@ -66,7 +66,7 @@ config(['$routeProvider', function($routeProvider) {
     MUSIC_PLAY: 'Включить музыку'
   });
   $translateProvider.translations('en', {
-    TITLE: 'Baikal Captain Ligue',
+    TITLE: 'Baikal Ice Captain Ligue',
     COPYRIGHT_TEXT: 'All rights reserved',
     COPYRIGHT_AUTHOR: 'Alexander Burmeister',
     PHOTO: 'Photo',
