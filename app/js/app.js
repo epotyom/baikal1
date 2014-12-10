@@ -66,7 +66,7 @@ config(['$routeProvider', function($routeProvider) {
     MUSIC_PLAY: 'Включить музыку'
   });
   $translateProvider.translations('en', {
-    TITLE: 'Baikal Ice Captain Ligue',
+    TITLE: 'Baikal Ice Captain League',
     COPYRIGHT_TEXT: 'All rights reserved',
     COPYRIGHT_AUTHOR: 'Alexander Burmeister',
     PHOTO: 'Photo',
