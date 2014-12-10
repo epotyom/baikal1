@@ -32,7 +32,7 @@ config(['$routeProvider', function($routeProvider) {
     AUTUMN: 'Осень',
     WINTER: 'Зима',
     ABOUT_US: 'О нас',
-    ABOUT_LIGUE: 'О лиге',
+    ABOUT_LEAGUE: 'О лиге',
     FAMILY: 'Семья',
     NEWS: 'Новости',
     MEDIA: 'СМИ',
