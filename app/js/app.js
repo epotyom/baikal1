@@ -81,7 +81,7 @@ config(['$routeProvider', function($routeProvider) {
     MEDIA: 'Media',
     EXPEDITIONS: 'Expeditions',
     WINTER_BAIKAL: 'Winter Baikal',
-    ICE_DRIVING_CODE: 'Ice Driving Code',
+    BAIKAL_ICE_CODE: 'Ice Driving Code',
     RECORDS: 'Records',
     VOLUNTEERS: 'Volunteers',
     CREATIVE: 'Creative',
