@@ -1,4 +1,12 @@
 [
+    {
+		"url": "images/photo/golden.jpg",
+		"thumb": "images/photo/TN_golden.jpg",
+		"title_ru": "golden",
+		"title_en": "Ten photo",
+		"description_ru": "Осеннее одиннадцатое фото тут.",
+		"description_en": "Ten photo description."
+	},
 	{
 		"url": "images/photo/11.jpg",
 		"thumb": "images/photo/TN_11.jpg",
