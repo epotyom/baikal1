@@ -16,5 +16,11 @@
 		"ogg": "music/3.ogg",
 		"title": "Azzura",
 		"artist": "Paco De Lucia"
+	},
+	{
+		"mp3": "music/chaikovskyautumn.mp3",
+		"ogg": "music/chaikovskyautumn.ogg",
+		"title": "Autumn",
+		"artist": "Chaikovsky"
 	}
 ]
