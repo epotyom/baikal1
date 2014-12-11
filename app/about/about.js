@@ -12,7 +12,7 @@ angular.module('baikalApp.about', ['ngRoute'])
     templateUrl: 'post/list.html',
     controller: 'PostlistCtrl',
   })
-  .when('/journey/:category', {
+  .when('/winter-baikal/:category', {
     templateUrl: 'post/list.html',
     controller: 'PostlistCtrl',
   })
