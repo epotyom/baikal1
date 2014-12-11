@@ -60,9 +60,12 @@ config(['$routeProvider', function($routeProvider) {
     BAIKAL_JOURNEY_BUTTON: 'Отправиться в путешествие »',
     OUR_CONTACTS: 'Наши контакты',
     ADDRESS: 'Адрес',
-    ADDRESS_TEXT: 'г. Иркутск, ул. Лермонтова, д. 777, кв. 7',
     PHONE: 'Телефон',
-    PHONE_TEXT: '+7 (3952) 33-44-55',
+    PHONE_TEXT: '+7 (3952) 114567',
+	SKYPE:'Skype' ,
+	SKYPE_TEXT: 'baikalicekapitan',
+	E_MAIL: 'e-mail',
+	E_MAIL_TEXT: 'Aburmeister@mail.ru',
     MUSIC_PLAY: 'Включить музыку'
   });
   $translateProvider.translations('en', {
@@ -102,10 +105,12 @@ config(['$routeProvider', function($routeProvider) {
     BAIKAL_JOURNEY_AUTHOR: 'Aleksander Burmeister',
     BAIKAL_JOURNEY_BUTTON: 'Make a step to my adventure »',
     OUR_CONTACTS: 'Our contacts',
-    ADDRESS: 'Address',
-    ADDRESS_TEXT: 'Irkutsk, ul. Lermontova, 777, 7',
-    PHONE: 'Phone',
-    PHONE_TEXT: '+7 (3952) 33-44-55',
+    PHONE: 'Tel.',
+    PHONE_TEXT: '+7 (3952) 114567',
+	SKYPE:'Skype' ,
+	SKYPE_TEXT: 'baikalicekapitan',
+	E_MAIL: 'e-mail',
+	E_MAIL_TEXT: 'Aburmeister@mail.ru',
     MUSIC_PLAY: 'Play music'
   });
   $translateProvider.preferredLanguage('ru');
