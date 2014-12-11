@@ -62,5 +62,13 @@
 		"title_en": "Eleven photo",
 		"description_ru": "Летнее четвертое фото тут.",
 		"description_en": "Eleven photo description."
+	},
+	{
+		"url": "images/photo/bear.jpg",
+		"thumb": "images/photo/TN_bear.jpg",
+		"title_ru": " медведь",
+		"title_en": "Bear",
+		"description_ru": "привет, медвед.",
+		"description_en": "hello, little bear."
 	}
 ]
