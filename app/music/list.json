@@ -1,23 +1,5 @@
 [
 	{
-		"mp3": "music/1.mp3",
-		"ogg": "music/1.ogg",
-		"title": "Roads Untravelled",
-		"artist": "Linkin Park"
-	},
-	{
-		"mp3": "music/2.mp3",
-		"ogg": "music/2.ogg",
-		"title": "Хорошо и тихо",
-		"artist": "Пилот"
-	},
-	{
-		"mp3": "music/3.mp3",
-		"ogg": "music/3.ogg",
-		"title": "Azzura",
-		"artist": "Paco De Lucia"
-	},
-	{
 		"mp3": "music/chaikovskyautumn.mp3",
 		"ogg": "music/chaikovskyautumn.ogg",
 		"title": "Autumn",
