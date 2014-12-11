@@ -1,6 +1,14 @@
 [
 	{
 		"id": "1",
+		"title_ru": "Егор Потёмкин",
+		"title_en": "Egor Potyomkin",
+		"description_ru": "Егорушка-волшебник, напиши что-нибудь здесь)))). ",
+		"description_en": "little Egor-the wizard, write something here please)))))).",
+		"date": "2014-12-11T4:38:43.511Z"
+	},
+	{
+		"id": "2",
 		"title_ru": "Ксения Бурмейстер",
 		"title_en": "Kseniia Burmeister",
 		"description_ru": "Как же мне повезло родиться у таких волшебных родителей в самом красивом месте на планете - озере Байкал!!!. ",
@@ -8,7 +16,7 @@
 		"date": "2014-12-11T4:38:43.511Z"
 	},
 	{
-		"id": "2",
+		"id": "3",
 		"title_ru": "Юрий ДеШевцов",
 		"title_en": "Iurii Deshevtsov",
 		"description_ru": "Юрец-мудрец, гениальный молодец)))))).",
