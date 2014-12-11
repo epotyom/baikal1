@@ -75,7 +75,7 @@ config(['$routeProvider', function($routeProvider) {
     AUTUMN: 'Autumn',
     WINTER: 'Winter',
     ABOUT_US: 'About us',
-    ABOUT_LIGUE: 'About Ligue',
+    ABOUT_LEAGUE: 'About League',
     FAMILY: 'Family',
     NEWS: 'News',
     MEDIA: 'Media',
