@@ -62,10 +62,10 @@ config(['$routeProvider', function($routeProvider) {
     ADDRESS: 'Адрес',
     PHONE: 'Телефон',
     PHONE_TEXT: '+7 (3952) 114567',
-	SKYPE:'Skype' ,
-	SKYPE_TEXT: 'baikalicekapitan',
-	E_MAIL: 'e-mail',
-	E_MAIL_TEXT: 'Aburmeister@mail.ru',
+    SKYPE:'Skype' ,
+    SKYPE_TEXT: 'baikalicekapitan',
+    E_MAIL: 'e-mail',
+    E_MAIL_TEXT: 'Aburmeister@mail.ru',
     MUSIC_PLAY: 'Включить музыку'
   });
   $translateProvider.translations('en', {

@@ -33,6 +33,14 @@ angular.module('baikalApp.about', ['ngRoute'])
 	$scope.post = Post.get({pid: $routeParams.pid});
 }])
 
-.controller('ContactsCtrl', ['$scope', 'Post', function($scope, Post) {
+.controller('ContactsCtrl', ['$scope', 'Post', '$translate', function($scope, Post, $translate) {
   $scope.post = Post.get({pid: "contacts"});
+  $translate('SKYPE_TEXT').then(function (skype_text) {
+    Skype.ui({
+      "name": "dropdown",
+      "element": "SkypeButton_Call_Skype_1",
+      "participants": [skype_text],
+      "imageSize": 32
+    });
+  });
 }]);
