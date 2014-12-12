@@ -40,7 +40,7 @@ angular.module('baikalApp.about', ['ngRoute'])
       "name": "call",
       "element": "SkypeButton_Call_Skype_1",
       "participants": [skype_text],
-      "imageSize": 14
+      "imageSize": 24
     });
   });
 }]);

@@ -249,3 +249,8 @@ html,body,.content-div {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05) inset;
     border-radius: 20px;
 }
+
+div.SkypeButton_Call_Skype_1 p.SkypeButton_Call_Skype_1_paraElement {
+	margin: 0;
+	vertical-align: 0;
+}
