@@ -35,12 +35,4 @@ angular.module('baikalApp.about', ['ngRoute'])
 
 .controller('ContactsCtrl', ['$scope', 'Post', '$translate', function($scope, Post, $translate) {
   $scope.post = Post.get({pid: "contacts"});
-  $translate('SKYPE_TEXT').then(function (skype_text) {
-    Skype.ui({
-      "name": "call",
-      "element": "SkypeButton_Call_Skype_1",
-      "participants": [skype_text],
-      "imageSize": 24
-    });
-  });
 }]);
