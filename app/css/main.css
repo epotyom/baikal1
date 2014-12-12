@@ -250,7 +250,7 @@ html,body,.content-div {
     border-radius: 20px;
 }
 
-div.SkypeButton_Call_Skype_1 p.SkypeButton_Call_Skype_1_paraElement img {
+div#SkypeButton_Call_Skype_1 p#SkypeButton_Call_Skype_1_paraElement img {
 	margin: 0;
 	vertical-align: 0;
 }
