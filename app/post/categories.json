@@ -9,9 +9,12 @@
 	"yoga_en": "About us: Yoga",
 	"guests_ru": "О нас: Наши Гости",
 	"guests_en": "About us: Our guests",
-	"baikal_ice_code_ru": "Правила Ледового Движения или 12 советов от Ледового Капитана",
-	"baikal_ice_code_en": "ICE DRIVING CODE or 12 tips  from ice-captain",
-	"winter_en": "Journey: Winter",
+	"12rules_ru": "Правила Ледового Движения или 12 советов от Ледового Капитана",
+	"12rules_en": "ICE DRIVING CODE or 12 tips  from ice-captain",
+	"films_ru": "Фильмы",
+	"films_en": "movies",
+	"records_ru": "РЕКОРДЫ",
+	"recoeds_en": "RECORDS"
 	"volunteers_ru": "Волонтёры",
 	"volunteers_en": "Volunteers"
 }
