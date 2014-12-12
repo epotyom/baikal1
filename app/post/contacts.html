@@ -9,10 +9,8 @@
                         <address translate="PHONE_TEXT"></address>
 	                    <h4>E-mail</h4>
                         <address><a nhref="mailto:{{ 'E_MAIL_TEXT' | translate }}" translate="E_MAIL_TEXT"></a></address>	
-                        <address id="skype-call-btn">                            
-                           <a onclick="Skype.tryAnalyzeSkypeUri('call', '0');" href="skype:{{ 'SKYPE_TEXT' | translate }}?call">
-                              <span class="glyphicon glyphicon-skype" aria-label="Skype"></span>
-                           </a>
+                        <address class="skype-call-btn">                            
+                           <a onclick="Skype.tryAnalyzeSkypeUri('call', '0');" href="skype:{{ 'SKYPE_TEXT' | translate }}?call"><i class="fa fa-skype"></i></a>
                         </address>						                       
                     </div>
                     <div class="pull-right">
