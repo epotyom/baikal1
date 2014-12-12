@@ -8,9 +8,21 @@
                         <h4 translate="PHONE"></h4>
                         <address translate="PHONE_TEXT"></address>
 	                    <h4 translate="E_MAIL"></h4>
-                        <address><a ng-href="'mailto:E_MAIL_TEXT' | translate" translate="E_MAIL_TEXT"></a></address>	
+                        <address><a nhref="mailto:{{ 'E_MAIL_TEXT' | translate }}" translate="E_MAIL_TEXT"></a></address>	
 	                    <h4 translate="SKYPE"></h4>
-                        <address translate="SKYPE_TEXT"></address>						                       
+                        <address>
+                            <script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
+                            <div id="SkypeButton_Call_baikalicekapitan_1">
+                              <script type="text/javascript">
+                                Skype.ui({
+                                  "name": "dropdown",
+                                  "element": "SkypeButton_Call_baikalicekapitan_1",
+                                  "participants": ["baikalicekapitan"],
+                                  "imageSize": 32
+                                });
+                              </script>
+                            </div>
+                        </address>						                       
                     </div>
                     <div class="pull-right">
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4837870.8571255!2d106.83946685000001!3d53.69614035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5dab7dedcf8dd873%3A0xf2489412c5853349!2z0L7Qty4g0JHQsNC50LrQsNC7!5e0!3m2!1sru!2sru!4v1418314624125" width="400" height="300" frameborder="0" style="border:0"></iframe>
