@@ -8,6 +8,10 @@ angular.module('baikalApp.about', ['ngRoute'])
     templateUrl: 'post/view.html',
     controller: 'PostviewCtrl',
   })
+  .when('/about/league', {
+    templateUrl: 'post/view.html',
+    controller: 'PostviewCtrl',
+  })
   .when('/about/:category', {
     templateUrl: 'post/list.html',
     controller: 'PostlistCtrl',
@@ -35,4 +39,8 @@ angular.module('baikalApp.about', ['ngRoute'])
 
 .controller('ContactsCtrl', ['$scope', 'Post', '$translate', function($scope, Post, $translate) {
   $scope.post = Post.get({pid: "contacts"});
+}])
+
+.controller('LeagueCtrl', ['$scope', 'Post', function($scope, Post) {
+  $scope.post = Post.get({pid: "league"});
 }]);
