@@ -253,3 +253,9 @@ html,body,.content-div {
 .skype-call-btn {
 	font-size: 14px;
 }
+
+@media (max-width: 767px) {
+	div.contact-map {
+		display: none;
+	}
+}
