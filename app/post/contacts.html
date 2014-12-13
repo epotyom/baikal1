@@ -6,9 +6,9 @@
                     <div class="post-preview pull-left">
                         <h2 class="post-title" translate="OUR_CONTACTS"></h2>
                         <h4 translate="PHONE"></h4>
-                        <address translate="PHONE_TEXT"></address>
+                        <address><i class="fa fa-phone"></i><span translate="PHONE_TEXT"></span></address>
 	                    <h4>E-mail</h4>
-                        <address><a nhref="mailto:{{ 'E_MAIL_TEXT' | translate }}" translate="E_MAIL_TEXT"></a></address>
+                        <address><i class="fa fa-envelope"></i> <a href="mailto:{{ 'E_MAIL_TEXT' | translate }}" translate="E_MAIL_TEXT"></a></address>
                         <h4>Skype</h4>	
                         <address class="skype-call-btn">                            
                            <a onclick="Skype.tryAnalyzeSkypeUri('call', '0');" href="skype:{{ 'SKYPE_TEXT' | translate }}?call"><i class="fa fa-skype"></i> <span translate="SKYPE_TEXT"></span></a>
