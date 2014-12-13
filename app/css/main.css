@@ -220,13 +220,13 @@ html,body,.content-div {
     width: 100%;
 }
 
-@media (max-height: 484px) {
+@media (max-height: 484px || max-width: 484px) {
 	.home-outer {
 		padding-top: 70px;
 	}
 }
 
-@media (min-height: 485px) {
+@media (min-height: 485px && min-width: 484px) {
 	.home-middle {
 	    display: table-cell;
 	    vertical-align: middle;
@@ -267,4 +267,8 @@ html,body,.content-div {
 	div.contact-map {
 		display: none;
 	}
+}
+
+#mainButton {
+	white-space: normal;
 }
