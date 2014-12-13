@@ -222,7 +222,7 @@ html,body,.content-div {
 
 @media (max-height: 484px) {
 	.home-outer {
-		margin-top: 70px;
+		padding-top: 70px;
 	}
 }
 
