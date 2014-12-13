@@ -220,6 +220,12 @@ html,body,.content-div {
     width: 100%;
 }
 
+@media (max-height: 7484px) {
+	.home-outer {
+		margin-top: 70px;
+	}
+}
+
 .home-middle {
     display: table-cell;
     vertical-align: middle;
