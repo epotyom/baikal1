@@ -65,7 +65,7 @@ config(['$routeProvider', function($routeProvider) {
     SKYPE:'Skype' ,
     SKYPE_TEXT: 'baikalicekapitan',
     E_MAIL: 'e-mail',
-    E_MAIL_TEXT: 'Aburmeister@mail.ru',
+    E_MAIL_TEXT: 'aburmeister@mail.ru',
     MUSIC_PLAY: 'Включить музыку'
   });
   $translateProvider.translations('en', {
@@ -110,7 +110,7 @@ config(['$routeProvider', function($routeProvider) {
 	SKYPE:'Skype' ,
 	SKYPE_TEXT: 'baikalicekapitan',
 	E_MAIL: 'e-mail',
-	E_MAIL_TEXT: 'Aburmeister@mail.ru',
+	E_MAIL_TEXT: 'aburmeister@mail.ru',
     MUSIC_PLAY: 'Play music'
   });
   $translateProvider.preferredLanguage('ru');
