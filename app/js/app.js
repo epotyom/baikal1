@@ -16,11 +16,13 @@ angular.module('baikalApp', [
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/home'});
 }])
-.filter('to_trusted', ['$sce', function($sce){
-    return function(text) {
-        return $sce.trustAsHtml(text);
-    };
-}])
+.config( [
+    '$compileProvider',
+    function( $compileProvider )
+    {   
+        $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|mailto|skype|tel):/);
+    }
+])
 .config(function ($translateProvider) {
   $translateProvider.translations('ru', {
     TITLE: 'Лига Байкальских Ледовых Капитанов',
