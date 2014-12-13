@@ -220,7 +220,7 @@ html,body,.content-div {
     width: 100%;
 }
 
-@media (max-height: 7484px) {
+@media (max-height: 484px) {
 	.home-outer {
 		margin-top: 70px;
 	}
