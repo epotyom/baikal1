@@ -10,7 +10,7 @@ angular.module('baikalApp.about', ['ngRoute'])
   })
   .when('/about/league', {
     templateUrl: 'post/view.html',
-    controller: 'PostviewCtrl',
+    controller: 'LeagueCtrl',
   })
   .when('/about/:category', {
     templateUrl: 'post/list.html',
