@@ -25,7 +25,7 @@ angular.module('baikalApp.routes', ['ngRoute'])
     controller: 'ContactsCtrl',
   })
   .when('/news/media', {
-    templateUrl: 'media/view.html',
+    templateUrl: 'media/media.html',
     controller: 'MediaCtrl',
   });
 }]);
