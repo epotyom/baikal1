@@ -1,0 +1,24 @@
+<div class="bloglist">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 well">
+                <h5>{{ 'NEWS_MEDIA' | translate }}</h5>
+                <div ng-repeat="post in medias">
+                <img class="media-image pull-left" ng-src="post.image" />              
+                <div class="media-text pull-right">
+                    <a href="#/post/{{post.id}}">
+                        <h4 class="post-title">
+                            {{ {res: post, attr: 'title'} | translate_res}}
+                        </h4>
+                    </a>
+                    <p>
+                        {{ {res: post, attr: 'description'} | translate_res}}
+                    </p>                    
+                    <p class="post-meta">{{post.date  | date:'dd.MM.yyyy'}}</p>
+                </div>
+                <hr>
+                </div>
+            </div>
+        </div>
+     </div>
+</div>

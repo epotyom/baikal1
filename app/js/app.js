@@ -4,12 +4,12 @@
 angular.module('baikalApp', [
   'ngRoute',
   'baikalApp.home',
-  'baikalApp.about',
   'baikalApp.photo',
   'baikalApp.version',
   'baikalApp.services',
   'baikalApp.controllers',
   'baikalApp.filters',
+  'baikalApp.routes',
   'pascalprecht.translate',
   'ngCookies',
 ]).
@@ -68,7 +68,8 @@ config(['$routeProvider', function($routeProvider) {
     SKYPE_TEXT: 'baikalicekapitan',
     E_MAIL: 'e-mail',
     E_MAIL_TEXT: 'aburmeister@mail.ru',
-    MUSIC_PLAY: 'Включить музыку'
+    MUSIC_PLAY: 'Включить музыку',
+    NEWS_MEDIA: 'Новости: СМИ'
   });
   $translateProvider.translations('en', {
     TITLE: 'Baikal Ice Captain League',
@@ -113,7 +114,8 @@ config(['$routeProvider', function($routeProvider) {
 	SKYPE_TEXT: 'baikalicekapitan',
 	E_MAIL: 'e-mail',
 	E_MAIL_TEXT: 'aburmeister@mail.ru',
-    MUSIC_PLAY: 'Play music'
+    MUSIC_PLAY: 'Play music',
+    NEWS_MEDIA: 'Media news'
   });
   $translateProvider.preferredLanguage('ru');
   $translateProvider.useLocalStorage();

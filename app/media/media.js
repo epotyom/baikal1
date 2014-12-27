@@ -1,0 +1,7 @@
+'use strict';
+
+angular.module('baikalApp.media', ['ngRoute'])
+
+.controller('MediaCtrl', ['$scope', '$routeParams', 'Media', function($scope, $routeParams, Post) {
+	$scope.medias = Media.query({pid: $routeParams.pid});
+}]);
