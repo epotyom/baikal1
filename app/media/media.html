@@ -3,9 +3,11 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 well">
                 <h5 translate="NEWS_MEDIA"></h5>
-                <div ng-repeat="post in medias">
-                <img class="media-image pull-left" ng-src="post.image" />              
-                <div class="media-text pull-right">
+                <div ng-repeat="post in medias" class="row">
+                <div class="col-md-2 col-lg-2">
+                    <img class="media-image pull-left" ng-src="post.image" />
+                </div>                              
+                <div class="col-md-8 col-lg-6">
                     <a href="#/post/{{post.id}}">
                         <h4 class="post-title">
                             {{ {res: post, attr: 'title'} | translate_res}}
