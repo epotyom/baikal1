@@ -5,6 +5,7 @@ angular.module('baikalApp', [
   'ngRoute',
   'baikalApp.home',
   'baikalApp.photo',
+  'baikalApp.media',
   'baikalApp.version',
   'baikalApp.services',
   'baikalApp.controllers',
