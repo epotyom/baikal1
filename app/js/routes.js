@@ -23,7 +23,7 @@ angular.module('baikalApp.routes', ['ngRoute'])
   .when('/contacts', {
     templateUrl: 'post/contacts.html',
     controller: 'ContactsCtrl',
-  });
+  })
   .when('/news/media', {
     templateUrl: 'media/view.html',
     controller: 'MediaCtrl',
