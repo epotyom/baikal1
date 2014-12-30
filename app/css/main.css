@@ -198,7 +198,7 @@ a.dropdown-toggle {
 	padding-top: 70px;
 	padding-bottom: 60px;
 	min-height: 100vh;
-	background: url("../images/bg_header.jpg") no-repeat center center fixed;
+	background: url("../images/bg_header.jpg") no-repeat top center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
