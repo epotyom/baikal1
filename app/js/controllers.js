@@ -54,4 +54,8 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 
 .controller('LeagueCtrl', ['$scope', 'Post', function($scope, Post) {
   $scope.post = Post.get({pid: "league"});
+}])
+
+.controller('ExpeditionsCtrl', ['$scope', 'Post', function($scope, Post) {
+
 }]);

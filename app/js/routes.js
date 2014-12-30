@@ -15,11 +15,7 @@ angular.module('baikalApp.routes', ['ngRoute'])
   .when('/about/:category', {
     templateUrl: 'post/list.html',
     controller: 'PostlistCtrl',
-  })
-  .when('/winter-baikal/:category', {
-    templateUrl: 'post/list.html',
-    controller: 'PostlistCtrl',
-  })
+  })  
   .when('/contacts', {
     templateUrl: 'post/contacts.html',
     controller: 'ContactsCtrl',
@@ -27,5 +23,13 @@ angular.module('baikalApp.routes', ['ngRoute'])
   .when('/news/media', {
     templateUrl: 'media/media.html',
     controller: 'MediaCtrl',
+  })
+  .when('/news/expeditions', {
+    templateUrl: 'expeditions/main.html',
+    controller: 'ExpeditionsCtrl',
+  })
+  .when('/news/:category', {
+    templateUrl: 'post/list.html',
+    controller: 'PostlistCtrl',
   });
 }]);
