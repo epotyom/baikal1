@@ -62,4 +62,5 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 
 .controller('RecordsCtrl', ['$scope', '$routeParams', 'Media', function($scope, $routeParams, Media) {
 	$scope.medias = Media.query({pid: "records"});
+	$scope.title = "RECORDS";
 }]);
