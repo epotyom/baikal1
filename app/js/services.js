@@ -24,5 +24,5 @@ angular.module('baikalApp.services', ['ngResource'])
 
 .factory('Media', ['$resource',
   function($resource){
-    return $resource('media/media.json', {}, {});
+    return $resource('media/:pid.json', {}, {});
   }]);

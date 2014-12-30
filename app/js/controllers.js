@@ -58,4 +58,8 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 
 .controller('ExpeditionsCtrl', ['$scope', 'Post', function($scope, Post) {
 
+}])
+
+.controller('RecordsCtrl', ['$scope', '$routeParams', 'Media', function($scope, $routeParams, Media) {
+	$scope.medias = Records.query({pid: "records"});
 }]);

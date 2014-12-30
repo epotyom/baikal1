@@ -28,6 +28,10 @@ angular.module('baikalApp.routes', ['ngRoute'])
     templateUrl: 'expeditions/main.html',
     controller: 'ExpeditionsCtrl',
   })
+  .when('/news/records', {
+    templateUrl: 'media/media.html',
+    controller: 'RecordsCtrl',
+  })
   .when('/news/:category', {
     templateUrl: 'post/list.html',
     controller: 'PostlistCtrl',
