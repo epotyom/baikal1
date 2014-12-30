@@ -71,7 +71,8 @@ config(['$routeProvider', function($routeProvider) {
     E_MAIL: 'e-mail',
     E_MAIL_TEXT: 'aburmeister@mail.ru',
     MUSIC_PLAY: 'Включить музыку',
-    NEWS_MEDIA: 'Новости: СМИ'
+    NEWS_MEDIA: 'Новости: СМИ',
+    EXPEDITIONS_SUBTITLE: 'Круглый год м можем предложить вам потрясающие экспедиции.'
   });
   $translateProvider.translations('en', {
     TITLE: 'Baikal Ice Captain League',
@@ -118,7 +119,8 @@ config(['$routeProvider', function($routeProvider) {
 	E_MAIL: 'e-mail',
 	E_MAIL_TEXT: 'aburmeister@mail.ru',
     MUSIC_PLAY: 'Play music',
-    NEWS_MEDIA: 'Media news'
+    NEWS_MEDIA: 'Media news',
+    EXPEDITIONS_SUBTITLE: 'English expeditions subtitle.'
   });
   $translateProvider.preferredLanguage('ru');
   $translateProvider.useLocalStorage();
