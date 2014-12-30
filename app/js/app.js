@@ -105,7 +105,7 @@ config(['$routeProvider', function($routeProvider) {
     WRITE_TO_YOU_FROM_BAIKAL: 'Write to you from Baikal',
     SACRED_PLACES_OF_LAKE_BAIKAL: 'Sacred places of Lake Baikal',
     BAIKAL_JOURNEY_TITLE: 'BAIKAL LEAGUE of ICE CAPTAINS named after A.BURMEISTER',
-    BAIKAL_JOURNEY_DESCRIPTION: 'In Siberia we say: «One that has tried water from the sacred lake Baikal, will live a long and happy life». There is still an ancient culture of communication between a Man and Nature. Baikal charms, gives wisdom, the real understanding of beauty, and reveals inner powers. Baikal gives initiated an opportunity to experiense different elements: storms, savage gales, smooth calm, and the cristal-clear ice! Baikal forms spiritual culture and true relationship between people. Days spent on the lake Baikal, the Lord doesn\'t count against past years.',
+    BAIKAL_JOURNEY_DESCRIPTION: '"One that has tried water from the sacred lake Baikal will live a long and happy life". There is still an ancient culture of communication here between man and nature. Baikal charms: it provides wisdom, affords an understanding of beauty, and reveals inner powers. Baikal gives the initiate an opportunity to experience many different elements: fierce storms, savage gales, peaceful calms, and of course its famous crystal-clear ice. Baikal fosters a spiritual culture and genuine relationships between people. "Days spent on the Lake Baikal, the Lord doesn\'t count against past years."',
     BAIKAL_JOURNEY_AUTHOR: 'Aleksander Burmeister',
     BAIKAL_JOURNEY_BUTTON: 'Make a step to my adventure »',
     OUR_CONTACTS: 'Our contacts',
