@@ -2,8 +2,8 @@
 	"id": "2",
 	"title_ru": "Байкал весной",
 	"title_en": "Baikal in spring",
-	"description_ru": "<p><b>Режиссёр:</b> А. А. Бурмейстер, В. В. Шевченко<br><b>Продолжительность фильма:</b> 11 мин.<br><b>Музыка:</b> Isao Tamito</p><p>Фильм взял «Приз Симпатию» на II фестивале любительских фильмов «Рыбий глаз» в 2000 г.</p>",
-	"description_en": "<p><b>Director:</b> A. Burmeister, VV Shevchenko<br><b>Length:</b> 11 min<br><b>Music:</b> Isao Tamito</p><p>The film won a \"Sympathy Prize\" at the II Festival of Amateur Films \"Fish Eye\" in 2000.</p>",
+	"text_ru": "<p><b>Режиссёр:</b> А. А. Бурмейстер, В. В. Шевченко<br><b>Продолжительность фильма:</b> 11 мин.<br><b>Музыка:</b> Isao Tamito</p><p>Фильм взял «Приз Симпатию» на II фестивале любительских фильмов «Рыбий глаз» в 2000 г.</p>",
+	"text_en": "<p><b>Director:</b> A. Burmeister, VV Shevchenko<br><b>Length:</b> 11 min<br><b>Music:</b> Isao Tamito</p><p>The film won a \"Sympathy Prize\" at the II Festival of Amateur Films \"Fish Eye\" in 2000.</p>",
 	"image": "/images/films/2.jpg",
 	"date": "2000-01-21"
 },

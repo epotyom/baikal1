@@ -2,8 +2,8 @@
 	"id": "4",
 	"title_ru": "Байкал летом",
 	"title_en": "Baikal in summer",
-	"description_ru": "<p><b>Режиссёр:</b> А. А. Бурмейстер, В. В. Шевченко<br><b>Продолжительность фильма:</b> 8.35 мин.</p><p>Фильм занял первое место на IV международном фестивале любительских фильмов «Рыбий глаз» в номинации «Природа» в 2002 г.</p>",
-	"description_en": "<p><b>Director:</b> A. Burmeister, VV Shevchenko<br><b>Length:</b> 8.35 min</p><p>The film won the first prize at the IV International Festival of amateur films \"Fish Eye\" in the category \"Nature\" in 2002.</p>",
+	"text_ru": "<p><b>Режиссёр:</b> А. А. Бурмейстер, В. В. Шевченко<br><b>Продолжительность фильма:</b> 8.35 мин.</p><p>Фильм занял первое место на IV международном фестивале любительских фильмов «Рыбий глаз» в номинации «Природа» в 2002 г.</p>",
+	"text_en": "<p><b>Director:</b> A. Burmeister, VV Shevchenko<br><b>Length:</b> 8.35 min</p><p>The film won the first prize at the IV International Festival of amateur films \"Fish Eye\" in the category \"Nature\" in 2002.</p>",
 	"image": "/images/films/4.jpg",
 	"date": "2002-01-21"
 }

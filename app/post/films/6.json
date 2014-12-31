@@ -2,8 +2,8 @@
 	"id": "6",
 	"title_ru": "Пишу тебе с Байкала",
 	"title_en": "Writing you from Baikal",
-	"description_ru": "<p><b>Режиссёр:</b> А. А. Бурмейстер<br><b>Продолжительность фильма:</b> 16.20 мин.<br><b>Музыка:</b> А. В. Александров, Secret Garden, «Священный Байкал», «Эх, Яблочко»</p><p>Фильм взял первое место на V международном фестивале любительских фильмов «Рыбий глаз» в номинации «Природа» в 2003 г.</p>",
-	"description_en": "<p><b>Director:</b> A. Burmeister<br><b>Length:</b> 16.20 min<br><b>Music:</b> A. Alexandrov, Secret Garden, “Sacred Baikal\", \"Oh, apple\"</p><p>The film won the Grand Prix at the VI International Festival of amateur films \"Fish Eye\" in Irkutsk and Japan in 2004.</p>",
+	"text_ru": "<p><b>Режиссёр:</b> А. А. Бурмейстер<br><b>Продолжительность фильма:</b> 16.20 мин.<br><b>Музыка:</b> А. В. Александров, Secret Garden, «Священный Байкал», «Эх, Яблочко»</p><p>Фильм взял первое место на V международном фестивале любительских фильмов «Рыбий глаз» в номинации «Природа» в 2003 г.</p>",
+	"text_en": "<p><b>Director:</b> A. Burmeister<br><b>Length:</b> 16.20 min<br><b>Music:</b> A. Alexandrov, Secret Garden, “Sacred Baikal\", \"Oh, apple\"</p><p>The film won the Grand Prix at the VI International Festival of amateur films \"Fish Eye\" in Irkutsk and Japan in 2004.</p>",
 	"image": "/images/films/6.jpg",
 	"date": "2004-01-21"
 }
