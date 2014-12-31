@@ -11,8 +11,11 @@
                                 {{ {res: post, attr: 'title'} | translate_res}}
                             </h4>
                         </a>
-                        <p ng-bind-html="{res: post, attr: 'description'} | translate_res | raw_html">
-                        </p>                    
+                        <div>
+                            <img ng-show="post.image" class="media-image pull-left" ng-src="{{post.image}}" />
+                            <p ng-bind-html="{res: post, attr: 'description'} | translate_res | raw_html">
+                            </p>
+                        </div>                  
                         <p class="post-meta">{{post.date  | date:'dd.MM.yyyy'}}</p>
                     </div>
                     <hr>
