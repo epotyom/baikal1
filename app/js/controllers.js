@@ -40,6 +40,7 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 .controller('PostlistCtrl', ['$scope', '$routeParams', '$translate', 'Post', 'Category', function($scope, $routeParams, $translate, Post, Category) {
 	$scope.categories = Category.get(function(categories) {
 		$scope.category = categories[$routeParams.category+'_'+$translate.use()];
+		$scope.cid = $routeParams.category;
 	});
 	$scope.posts = Post.query({pid: $routeParams.category, cid: $routeParams.category});
 }])
