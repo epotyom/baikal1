@@ -11,7 +11,7 @@ angular.module('baikalApp.home', ['ngRoute'])
 
 .controller('HomeCtrl', ['$scope',function($scope) {
 	$scope.home_background = {
-		'background': 'url(images/bg_header.jpg) no-repeat center center fixed',
+		'background': 'url(images/bg_header.jpg) no-repeat top center fixed',
 		'-webkit-background-size': 'cover',
 		'-moz-background-size': 'cover',
 		'-o-background-size': 'cover',

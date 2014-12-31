@@ -6,4 +6,10 @@ angular.module('baikalApp.filters', ['ngResource'])
   return function(input) {
     return input.res[input.attr+'_'+$translate.use()];
   };
-}]);
+}])
+
+.filter('raw_html', ['$sce', function($sce){
+  return function(val) {
+    return $sce.trustAsHtml(val);
+  };
+}]);;

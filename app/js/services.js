@@ -20,4 +20,9 @@ angular.module('baikalApp.services', ['ngResource'])
 .factory('Category', ['$resource',
   function($resource){
     return $resource('post/categories.json', {}, {});
+  }])
+
+.factory('Media', ['$resource',
+  function($resource){
+    return $resource('media/:pid.json', {}, {});
   }]);

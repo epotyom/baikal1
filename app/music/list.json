@@ -1,8 +1,38 @@
 [
 	{
-		"mp3": "music/chaikovskyautumn.mp3",
-		"ogg": "music/chaikovskyautumn.ogg",
-		"title": "Autumn",
-		"artist": "Chaikovsky"
-	}
+		"mp3": "music/burmeyster-kseniya-my-star.mp3",
+		"ogg": "music/burmeyster-kseniya-my-star.ogg",
+		"title": "Моя звезда",
+		"artist": "Ксюша Бурмейстер"
+	},
+	{
+		"mp3": "music/burmeyster-kseniya-actor.mp3",
+		"ogg": "music/burmeyster-kseniya-actor.ogg",
+		"title": "Актёр",
+		"artist": "Ксюша Бурмейстер"
+	},
+	{
+		"mp3": "music/burmeiyster-kseniya-america.mp3",
+		"ogg": "music/burmeiyster-kseniya-america.ogg",
+		"title": "America",
+		"artist": "Ксюша Бурмейстер"
+	},
+	{
+		"mp3": "music/burmeyster-kseniya-future.mp3",
+		"ogg": "music/burmeyster-kseniya-future.ogg",
+		"title": "Будущее",
+		"artist": "Ксюша Бурмейстер"
+	},
+	{
+		"mp3": "music/burmeister-ksenia-snowflakes.mp3",
+		"ogg": "music/burmeister-ksenia-snowflakes.ogg",
+		"title": "Snowflakes",
+		"artist": "Ксюша Бурмейстер"
+	},
+	{
+		"mp3": "music/burmeyster-kseniya-black-angel.mp3",
+		"ogg": "music/burmeyster-kseniya-black-angel.ogg",
+		"title": "Чёрный ангел",
+		"artist": "Ксюша Бурмейстер"
+	}   
 ]

@@ -35,4 +35,32 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 		jQuery('#audio_audio').load();
 		document.getElementById('audio_audio').play();
 	}
+}])
+
+.controller('PostlistCtrl', ['$scope', '$routeParams', '$translate', 'Post', 'Category', function($scope, $routeParams, $translate, Post, Category) {
+	$scope.categories = Category.get(function(categories) {
+		$scope.category = categories[$routeParams.category+'_'+$translate.use()];
+	});
+	$scope.posts = Post.query({pid: $routeParams.category});
+}])
+
+.controller('PostviewCtrl', ['$scope', '$routeParams', 'Post', function($scope, $routeParams, Post) {
+	$scope.post = Post.get({pid: $routeParams.pid});
+}])
+
+.controller('ContactsCtrl', ['$scope', 'Post', '$translate', function($scope, Post, $translate) {
+  $scope.post = Post.get({pid: "contacts"});
+}])
+
+.controller('LeagueCtrl', ['$scope', 'Post', function($scope, Post) {
+  $scope.post = Post.get({pid: "league"});
+}])
+
+.controller('ExpeditionsCtrl', ['$scope', 'Post', function($scope, Post) {
+
+}])
+
+.controller('RecordsCtrl', ['$scope', '$routeParams', 'Media', function($scope, $routeParams, Media) {
+	$scope.medias = Media.query({pid: "records"});
+	$scope.title = "RECORDS";
 }]);

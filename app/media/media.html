@@ -1,0 +1,27 @@
+<div class="bloglist">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 well">
+                <h5 translate="{{title}}"></h5>
+                <hr>
+                <div ng-repeat="post in medias">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12">
+                        <img class="media-image pull-left" ng-src="{{post.image}}" />
+                        <a target="_blank" href="{{post.link}}">
+                            <h4 class="post-title">
+                                {{ {res: post, attr: 'title'} | translate_res}}
+                            </h4>
+                        </a>
+                        <p>
+                            {{ {res: post, attr: 'description'} | translate_res}}
+                        </p>                    
+                        <p class="text-muted">{{post.date  | date:'dd.MM.yyyy'}}</p>
+                    </div>                
+                </div>
+                <hr>
+                </div>
+            </div>
+        </div>
+     </div>
+</div>

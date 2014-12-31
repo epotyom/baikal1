@@ -1,26 +1,35 @@
 [
-	{
-		"url": "images/photo/2.jpg",
-		"thumb": "images/photo/TN_2.jpg",
-		"title_ru": "Первое фото",
-		"title_en": "First photo",
-		"description_ru": "Самое первое фото тут.",
-		"description_en": "There is first photo."
+	
+    {
+		"url": "images/photo/spring/1.jpg",
+		"thumb": "images/photo/spring/TN_1.jpg",
+		"title_ru": "1",
+		"title_en": "1",
+		"description_ru": "",
+		"description_en": ""
 	},
 	{
-		"url": "images/photo/3.jpg",
-		"thumb": "images/photo/TN_3.jpg",
-		"title_ru": "Второе фото",
-		"title_en": "Second photo",
-		"description_ru": "Самое второе фото тут.",
-		"description_en": "There is second photo description."
+		"url": "images/photo/spring/2.jpg",
+		"thumb": "images/photo/spring/TN_2.jpg",
+		"title_ru": "2",
+		"title_en": "2",
+		"description_ru": "",
+		"description_en": ""
 	},
 	{
-		"url": "images/photo/4.jpg",
-		"thumb": "images/photo/TN_4.jpg",
-		"title_ru": "Четвертое фото",
-		"title_en": "Fourth photo",
-		"description_ru": "Самое четвертое фото тут.",
-		"description_en": "There is fourth photo description."
+		"url": "images/photo/spring/3.jpg",
+		"thumb": "images/photo/spring/TN_3.jpg",
+		"title_ru": "3",
+		"title_en": "3",
+		"description_ru": "",
+		"description_en": ""
+	},
+	{
+		"url": "images/photo/spring/4.jpg",
+		"thumb": "images/photo/spring/TN_4.jpg",
+		"title_ru": "4",
+		"title_en": "4",
+		"description_ru": "",
+		"description_en": ""
 	}
 ]

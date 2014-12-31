@@ -39,6 +39,7 @@
       </div>      
       <div class="navbar-collapse collapse">        
         <ul class="nav navbar-nav pull-right">
+          <li><a href="#/home" translate="MAIN_PAGE"></a></li>
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown"><span translate="PHOTO"></span> <b class="caret"></b></a>
             <ul class="dropdown-menu">
@@ -53,21 +54,14 @@
             <ul class="dropdown-menu">
               <li><a href="#/news/media" translate="MEDIA"></a></li>
               <li><a href="#/news/expeditions" translate="EXPEDITIONS"></a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown"><span translate="WINTER_BAIKAL"></span> <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="#/winter-baikal/12rules" translate="BAIKAL_ICE_CODE"></a></li>
-              <li><a href="#/winter-baikal/records" translate="RECORDS"></a></li>
-              <li><a href="#/winter-baikal/volunteers" translate="VOLUNTEERS"></a></li>
+              <li><a href="#/news/records" translate="RECORDS"></a></li>
+              <li><a href="#/news/volunteers" translate="VOLUNTEERS"></a></li>
             </ul>
           </li>
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown"><span translate="ABOUT_US"></span> <b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="#/about/league" translate="ABOUT_LEAGUE"></a></li>
-              <li><a href="#/about/media" translate="MEDIA"></a></li>
               <li><a href="#/about/creative" translate="CREATIVE"></a></li>
               <li><a href="#/about/films" translate="FILMS"></a></li>
               <li><a href="#/about/guests" translate="OUR_GUESTS"></a></li>
@@ -86,7 +80,7 @@
 
   <div ng-view class="content-div"></div>
 
-  <footer class="footer"  ng-controller="FooterCtrl">
+  <footer class="footer" ng-controller="FooterCtrl">
     <div class="footer2">
       <div class="top-bottom-container">
         <div class="row">
@@ -135,9 +129,10 @@
   <script src="js/services.js"></script>
   <script src="js/controllers.js"></script>
   <script src="js/filters.js"></script>
+  <script src="js/routes.js"></script>
   <script src="home/home.js"></script>
   <script src="photo/photo.js"></script>
-  <script src="about/about.js"></script>
+  <script src="media/media.js"></script>
   <script src="components/version/version.js"></script>
   <script src="components/version/version-directive.js"></script>
   <script src="components/version/interpolate-filter.js"></script>

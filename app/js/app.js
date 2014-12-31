@@ -4,28 +4,32 @@
 angular.module('baikalApp', [
   'ngRoute',
   'baikalApp.home',
-  'baikalApp.about',
   'baikalApp.photo',
+  'baikalApp.media',
   'baikalApp.version',
   'baikalApp.services',
   'baikalApp.controllers',
   'baikalApp.filters',
+  'baikalApp.routes',
   'pascalprecht.translate',
   'ngCookies',
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/home'});
 }])
-.filter('to_trusted', ['$sce', function($sce){
-    return function(text) {
-        return $sce.trustAsHtml(text);
-    };
-}])
+.config( [
+    '$compileProvider',
+    function( $compileProvider )
+    {   
+        $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|mailto|skype|tel):/);
+    }
+])
 .config(function ($translateProvider) {
   $translateProvider.translations('ru', {
     TITLE: 'Лига Байкальских Ледовых Капитанов',
     COPYRIGHT_TEXT: 'Все права защищены',
     COPYRIGHT_AUTHOR: 'Александр Бурмейстер',
+    MAIN_PAGE: 'Главная',
     PHOTO: 'Фото',
     SPRING: 'Весна',
     SUMMER: 'Лето',
@@ -61,17 +65,20 @@ config(['$routeProvider', function($routeProvider) {
     OUR_CONTACTS: 'Наши контакты',
     ADDRESS: 'Адрес',
     PHONE: 'Телефон',
-    PHONE_TEXT: '+7 (3952) 114567',
+    PHONE_TEXT: '+7 (902) 511-45-67',
     SKYPE:'Skype' ,
     SKYPE_TEXT: 'baikalicekapitan',
     E_MAIL: 'e-mail',
-    E_MAIL_TEXT: 'Aburmeister@mail.ru',
-    MUSIC_PLAY: 'Включить музыку'
+    E_MAIL_TEXT: 'aburmeister@mail.ru',
+    MUSIC_PLAY: 'Включить музыку',
+    NEWS_MEDIA: 'Новости: СМИ',
+    EXPEDITIONS_SUBTITLE: 'Круглый год м можем предложить вам потрясающие экспедиции.'
   });
   $translateProvider.translations('en', {
     TITLE: 'Baikal Ice Captain League',
     COPYRIGHT_TEXT: 'All rights reserved',
     COPYRIGHT_AUTHOR: 'Alexander Burmeister',
+    MAIN_PAGE: 'Home',
     PHOTO: 'Photo',
     SPRING: 'Spring',
     SUMMER: 'Summer',
@@ -101,17 +108,19 @@ config(['$routeProvider', function($routeProvider) {
     WRITE_TO_YOU_FROM_BAIKAL: 'Write to you from Baikal',
     SACRED_PLACES_OF_LAKE_BAIKAL: 'Sacred places of Lake Baikal',
     BAIKAL_JOURNEY_TITLE: 'BAIKAL LEAGUE of ICE CAPTAINS named after A.BURMEISTER',
-    BAIKAL_JOURNEY_DESCRIPTION: 'In Siberia we say: «One that has tried water from the sacred lake Baikal, will live a long and happy life». There is still an ancient culture of communication between a Man and Nature. Baikal charms, gives wisdom, the real understanding of beauty, and reveals inner powers. Baikal gives initiated an opportunity to experiense different elements: storms, savage gales, smooth calm, and the cristal-clear ice! Baikal forms spiritual culture and true relationship between people. Days spent on the lake Baikal, the Lord doesn\'t count against past years.',
+    BAIKAL_JOURNEY_DESCRIPTION: '"One that has tried water from the sacred lake Baikal will live a long and happy life". There is still an ancient culture of communication here between man and nature. Baikal charms: it provides wisdom, affords an understanding of beauty, and reveals inner powers. Baikal gives the initiate an opportunity to experience many different elements: fierce storms, savage gales, peaceful calms, and of course its famous crystal-clear ice. Baikal fosters a spiritual culture and genuine relationships between people. "Days spent on the Lake Baikal, the Lord doesn\'t count against past years."',
     BAIKAL_JOURNEY_AUTHOR: 'Aleksander Burmeister',
     BAIKAL_JOURNEY_BUTTON: 'Make a step to my adventure »',
     OUR_CONTACTS: 'Our contacts',
     PHONE: 'Tel.',
-    PHONE_TEXT: '+7 (3952) 114567',
+    PHONE_TEXT: '+7 (902) 511-45-67',
 	SKYPE:'Skype' ,
 	SKYPE_TEXT: 'baikalicekapitan',
 	E_MAIL: 'e-mail',
-	E_MAIL_TEXT: 'Aburmeister@mail.ru',
-    MUSIC_PLAY: 'Play music'
+	E_MAIL_TEXT: 'aburmeister@mail.ru',
+    MUSIC_PLAY: 'Play music',
+    NEWS_MEDIA: 'Media news',
+    EXPEDITIONS_SUBTITLE: 'English expeditions subtitle.'
   });
   $translateProvider.preferredLanguage('ru');
   $translateProvider.useLocalStorage();
