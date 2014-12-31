@@ -1,18 +1,56 @@
 [
 	{
-		"id": "bb",
-		"title_ru": "ЙогаPRO от Татьяны Соколовской",
-		"title_en": "YogaPRO by Tatyana Sokolovskaya",
-		"description_ru": "Здесь моя любимая мамочка напишет всё, что пожелает про свою прекрасную Ёгу))) . ",
-		"description_en": "in process",
-		"date": "2012-04-23T18:25:43.511Z"
+		"id": "1",
+		"title_ru": "Байкал зимой глазами А. Бурмейстера",
+		"title_en": "Baikal in winter by A.Burmeyster",
+		"description_ru": "<p><b>Режиссёр:</b> А. А. Бурмейстер, В. В. Шевченко<br><b>Продолжительность фильма:</b> 15 мин.<br><b>Музыка:</b> Isao Tamito</p><p>«Есть много нитей, связывающих нашу Сибирь и далёкую Францию. Одной из них является авторский фильм Александра Бурмейстера «Зимний Байкал», в котором органично сливается красота священного озера и музыка известного композитора Жанна - Мишеля Жарра.» НБ им. И.И. Молчанова-Сибирского</p><p>Фильм занял первое место на конкурсе неигровых любительских фильмов «Рыбий глаз» в номинации «Природа» в 1999 г.</p>",
+		"description_en": "<p><b>Director:</b> A. Burmeister, VV Shevchenko<br><b>Length:</b> 15 min<br><b>Music:</b> Jean Michel Jarre</p><p>\"There are many threads connecting Siberia and France. One of them is a film by Alexander Burmeister \"Baikal in winter\", which organically merges the beauty of the sacred Lake and the music of the famous composer Joan - Michel Jarre. \" NB named after. I.I.Molchanov-Sibirsky.</p><p>The film took the first place in the competition of non-fiction amateur film \"Fish Eye\" in the category \"Nature\" in 1999.</p>",
+		"image": "/images/films/1.jpg",
+		"date": "1999-01-21"
 	},
 	{
-		"id": "aa",
-		"title_ru": "Ёжки",
-		"title_en": "Ёga",
-		"description_ru": "Это те, кто ёжится в свое удовольствие и от всей души (: .",
-		"description_en": "in process.",
-		"date": "2013-04-23T18:25:43.511Z"
+		"id": "2",
+		"title_ru": "Байкал весной",
+		"title_en": "Baikal in spring",
+		"description_ru": "<p><b>Режиссёр:</b> А. А. Бурмейстер, В. В. Шевченко<br><b>Продолжительность фильма:</b> 11 мин.<br><b>Музыка:</b> Isao Tamito</p><p>Фильм взял «Приз Симпатию» на II фестивале любительских фильмов «Рыбий глаз» в 2000 г.</p>",
+		"description_en": "<p><b>Director:</b> A. Burmeister, VV Shevchenko<br><b>Length:</b> 11 min<br><b>Music:</b> Isao Tamito</p><p>The film won a \"Sympathy Prize\" at the II Festival of Amateur Films \"Fish Eye\" in 2000.</p>",
+		"image": "/images/films/2.jpg",
+		"date": "2000-01-21"
+	},
+	{
+		"id": "3",
+		"title_ru": "Художник на Байкале",
+		"title_en": "Baikal in spring",
+		"description_ru": "<p><b>Режиссёр:</b> А. А. Бурмейстер, В. В. Шевченко<br><b>Продолжительность фильма:</b> 11 мин.</p><p>Работа Александра Бурмейстера «Художник на Байкале» привлекла внимание всех тщательно продуманным сценарием, выверенными планами и классной идеей: художник на берегу Байкала наводит рамку на фрагменты пейзажа, и получившаяся картинка начинает «жить» отдельно от всей природы.» Аргументы и факты</p><p>Фильм занял первое место на III Международном фестивале любительских фильмов «Рыбий глаз» в номинации «Красота спасёт мир» в 2001 г.</p>",
+		"description_en": "<p><b>Director:</b> A. Burmeister, VV Shevchenko<br><b>Length:</b> 11 min</p><p>“ The work of Alexander Burmeister \"Artist on Baikal\" has attracted the attention by the elaborate scenario, verified plans, and a cool idea: the artist on the shore of Lake Baikal tries a frame to fragments of the landscape, and a picture begins to \"live\" separately from the whole nature.” <i>“Arguments and Facts”</i></p><p>The film won the first prize at the III International Festival of amateur films \"Fish Eye\" in the category \"Beauty will save the world\" in 2001.</p>",
+		"image": "/images/films/3.jpg",
+		"date": "2001-01-21"
+	},
+	{
+		"id": "4",
+		"title_ru": "Байкал летом",
+		"title_en": "Baikal in summer",
+		"description_ru": "<p><b>Режиссёр:</b> А. А. Бурмейстер, В. В. Шевченко<br><b>Продолжительность фильма:</b> 8.35 мин.</p><p>Фильм занял первое место на IV международном фестивале любительских фильмов «Рыбий глаз» в номинации «Природа» в 2002 г.</p>",
+		"description_en": "<p><b>Director:</b> A. Burmeister, VV Shevchenko<br><b>Length:</b> 8.35 min</p><p>The film won the first prize at the IV International Festival of amateur films \"Fish Eye\" in the category \"Nature\" in 2002.</p>",
+		"image": "/images/films/4.jpg",
+		"date": "2002-01-21"
+	},
+	{
+		"id": "5",
+		"title_ru": "Осень на Байкале",
+		"title_en": "Autumn on Baikal",
+		"description_ru": "<p><b>Режиссёр:</b> А. А. Бурмейстер<br><b>Продолжительность фильма:</b> 13.50 мин.<br><b>Музыка:</b> Peter Seiler, Микаэл Таривердиев</p><p>Фильм взял первое место на V международном фестивале любительских фильмов «Рыбий глаз» в номинации «Природа» в 2003 г.</p>",
+		"description_en": "<p><b>Director:</b> A. Burmeister<br><b>Length:</b> 13.50 min<br><b>Music:</b> Peter Seiler, Michael Tariverdiev</p><p>The film took the first place at the V International Festival of amateur films \"Fish Eye\" in the category \"Nature\" in 2003.</p>",
+		"image": "/images/films/5.jpg",
+		"date": "2003-01-21"
+	},
+	{
+		"id": "6",
+		"title_ru": "Пишу тебе с Байкала",
+		"title_en": "Writing you from Baikal",
+		"description_ru": "<p><b>Режиссёр:</b> А. А. Бурмейстер<br><b>Продолжительность фильма:</b> 16.20 мин.<br><b>Музыка:</b> А. В. Александров, Secret Garden, «Священный Байкал», «Эх, Яблочко»</p><p>Фильм взял первое место на V международном фестивале любительских фильмов «Рыбий глаз» в номинации «Природа» в 2003 г.</p>",
+		"description_en": "<p><b>Director:</b> A. Burmeister<br><b>Length:</b> 16.20 min<br><b>Music:</b> A. Alexandrov, Secret Garden, “Sacred Baikal\", \"Oh, apple\"</p><p>The film won the Grand Prix at the VI International Festival of amateur films \"Fish Eye\" in Irkutsk and Japan in 2004.</p>",
+		"image": "/images/films/6.jpg",
+		"date": "2004-01-21"
 	}
 ]
