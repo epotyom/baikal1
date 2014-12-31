@@ -16,6 +16,9 @@ angular.module('baikalApp.routes', ['ngRoute'])
     templateUrl: 'post/skype-lessons.html',
     controller: 'SkypelessonsCtrl',
   })
+  .when('/about/yoga', {
+    templateUrl: 'post/yoga.html',
+  })
   .when('/about/:category', {
     templateUrl: 'post/list.html',
     controller: 'PostlistCtrl',
