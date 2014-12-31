@@ -305,3 +305,8 @@ img.media-image{
 .team-member p {
     margin-top: 0;
 }
+
+.section-heading {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
