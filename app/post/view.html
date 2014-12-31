@@ -7,8 +7,11 @@
                         <h2 class="post-title">
                             {{ {res: post, attr: 'title'} | translate_res}}
                         </h2>
+                        <div>
+                        <img ng-show="post.image" class="media-image pull-left" ng-src="{{post.image}}" />
                         <div ng-bind-html="{res: post, attr: 'text'} | translate_res | raw_html">
-                        </div>                   
+                        </div>
+                        </div>                 
                         <p class="post-meta">{{post.date  | date:'dd.MM.yyyy'}}</p>
                     </div>
                     <hr>
