@@ -4,7 +4,7 @@ angular.module('baikalApp.routes', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider
-  .when('/post/:pid', {
+  .when('/post/:cid/:pid', {
     templateUrl: 'post/view.html',
     controller: 'PostviewCtrl',
   })
