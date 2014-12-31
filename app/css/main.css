@@ -286,6 +286,19 @@ img.media-image{
     display: block;
 }
 
+img.skype-lessons-image{
+	max-width: 400px;
+    -webkit-box-shadow: 1 0 5px rgba(100, 100, 100, 0.5);
+    -moz-box-shadow: 1 0 5px rgba(100,100,100,0.5);
+    box-shadow: 1 0 5px rgba(100, 100, 100, 0.5);
+    /*margin: 30px 0;
+    padding: 3px;*/
+    background: #FFF;
+    /*border: 1px solid #CCC;*/
+    position: relative;
+    display: block;
+}
+
 .team-member {
     margin-bottom: 50px;
     text-align: center;
