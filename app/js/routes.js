@@ -12,6 +12,10 @@ angular.module('baikalApp.routes', ['ngRoute'])
     templateUrl: 'post/view.html',
     controller: 'LeagueCtrl',
   })
+  .when('/about/skype-lessons', {
+    templateUrl: 'post/skype-lessons.html',
+    controller: 'SkypelessonsCtrl',
+  })
   .when('/about/:category', {
     templateUrl: 'post/list.html',
     controller: 'PostlistCtrl',
