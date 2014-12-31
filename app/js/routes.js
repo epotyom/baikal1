@@ -32,6 +32,10 @@ angular.module('baikalApp.routes', ['ngRoute'])
     templateUrl: 'media/media.html',
     controller: 'RecordsCtrl',
   })
+  .when('/news/volunteers', {
+    templateUrl: 'media/media.html',
+    controller: 'VolunteersCtrl',
+  })
   .when('/news/:category', {
     templateUrl: 'post/list.html',
     controller: 'PostlistCtrl',

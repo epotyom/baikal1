@@ -41,19 +41,19 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 	$scope.categories = Category.get(function(categories) {
 		$scope.category = categories[$routeParams.category+'_'+$translate.use()];
 	});
-	$scope.posts = Post.query({pid: $routeParams.category});
+	$scope.posts = Post.query({pid: $routeParams.category, cid: $routeParams.category});
 }])
 
 .controller('PostviewCtrl', ['$scope', '$routeParams', 'Post', function($scope, $routeParams, Post) {
-	$scope.post = Post.get({pid: $routeParams.pid});
+	$scope.post = Post.get({pid: $routeParams.pid, cid: $routeParams.cid});
 }])
 
 .controller('ContactsCtrl', ['$scope', 'Post', '$translate', function($scope, Post, $translate) {
-  $scope.post = Post.get({pid: "contacts"});
+  
 }])
 
 .controller('LeagueCtrl', ['$scope', 'Post', function($scope, Post) {
-  $scope.post = Post.get({pid: "league"});
+  $scope.post = Post.get({pid: "league", cid: "league"});
 }])
 
 .controller('ExpeditionsCtrl', ['$scope', 'Post', function($scope, Post) {
@@ -63,4 +63,8 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 .controller('RecordsCtrl', ['$scope', '$routeParams', 'Media', function($scope, $routeParams, Media) {
 	$scope.medias = Media.query({pid: "records"});
 	$scope.title = "RECORDS";
+}])
+
+.controller('VolunteersCtrl', ['$scope', 'Post', function($scope, Post) {
+  $scope.post = Post.get({pid: "volunteers", cid: "volunteers"});
 }]);
