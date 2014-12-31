@@ -11,8 +11,7 @@
                                 {{ {res: post, attr: 'title'} | translate_res}}
                             </h4>
                         </a>
-                        <p>
-                            {{ {res: post, attr: 'description'} | translate_res | raw_html }}
+                        <p ng-bind-html="{res: post, attr: 'description'} | translate_res | raw_html">
                         </p>                    
                         <p class="post-meta">{{post.date  | date:'dd.MM.yyyy'}}</p>
                     </div>
