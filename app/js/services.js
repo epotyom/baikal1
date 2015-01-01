@@ -25,7 +25,7 @@ angular.module('baikalApp.services', ['ngResource'])
     };
 
     //example of when you may want to notify observers
-    this.foo = someNgResource.query().$then(function(){
+    Music.foo = someNgResource.query().$then(function(){
       notifyObservers();
     });
 
