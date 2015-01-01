@@ -23,12 +23,6 @@ angular.module('baikalApp.services', ['ngResource'])
         callback();
       });
     };
-
-    //example of when you may want to notify observers
-    Music.foo = someNgResource.query().$then(function(){
-      notifyObservers();
-    });
-
     
     Music.list = $resource('music/list.json', {}, {}).query(function() {
       for (var i = Music.list.length - 1; i >= 0; i--) {
