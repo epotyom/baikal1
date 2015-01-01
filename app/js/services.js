@@ -57,6 +57,8 @@ angular.module('baikalApp.services', ['ngResource'])
       Music.play((Music.current + 1) % Music.list.length);    
     }
 
+    Music.get
+
     return Music;
   }])
 

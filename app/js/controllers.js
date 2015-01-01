@@ -20,10 +20,24 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 
 .controller('MusicCtrl', ['$scope', 'Music', function($scope, Music) {
 	$scope.music = Music;
+	$scope.music_state = Music.state;
+	$scope.music_current = Music.current;
+	$scope.$watch('Music.state', function (newVal, oldVal, scope) {
+		if(newVal) { 
+			scope.music_state = newVal;
+		}
+	});
 }])
 
 .controller('FooterCtrl', ['$scope', 'Music', function($scope, Music) {
 	$scope.music = Music;
+	$scope.music_state = Music.state;
+	$scope.music_current = Music.current;
+	$scope.$watch('Music.state', function (newVal, oldVal, scope) {
+		if(newVal) { 
+			scope.music_state = newVal;
+		}
+	});
 }])
 
 .controller('PostlistCtrl', ['$scope', '$routeParams', '$translate', 'Post', 'Category', function($scope, $routeParams, $translate, Post, Category) {
