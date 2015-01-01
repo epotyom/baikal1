@@ -20,15 +20,16 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 
 .controller('MusicCtrl', ['$scope', 'Music', function($scope, Music) {
 	$scope.music = Music;
-	$scope.music_state = Music.mstate;
-	$scope.music_current = Music.current;
-	$scope.$watchCollection(function() { return [Music.mstate, Music.current]; }, function (newVal, oldVal) {
-		console.log(oldVal);
-		if(newVal) { 
-			$scope.music_state = newVal[0];
-			$scope.music_current = newVal[1];
-		}
-	});
+	
+	var updateScope = function () {
+		$scope.music_state = Music.mstate;
+		$scope.music_current = Music.current;
+	}
+
+	updateScope();
+
+  	Music.registerObserverCallback(updateScope);
+
 	$scope.logState = function() {
 		console.log(Music.mstate);
 		Music.mstate = "test";
