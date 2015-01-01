@@ -22,7 +22,7 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 	$scope.music = Music;
 	$scope.music_state = Music.state;
 	$scope.music_current = Music.current;
-	$scope.$watchCollection('[Music.state, Music.current]', function (newVal, oldVal, scope) {
+	$scope.$watchCollection(function() { return [Music.state, Music.current]; }, function (newVal, oldVal, scope) {
 		if(newVal) { 
 			scope.music_state = newVal[0];
 			scope.music_current = newVal[1];
