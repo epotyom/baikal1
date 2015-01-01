@@ -36,7 +36,6 @@ angular.module('baikalApp.services', ['ngResource'])
           Music.state = "pause";
           document.getElementById('audio_audio').pause();
         } else {
-          Music.state = "play";
           document.getElementById('audio_audio').play();
         }
       } else {
