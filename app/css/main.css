@@ -139,7 +139,7 @@ a.dropdown-toggle {
 }
 
 .slide-preview .carousel-indicators {
-    bottom: 0;
+    bottom: 20px;
     left: 0;
     margin-left: 5px;
     /*width: 100%;*/

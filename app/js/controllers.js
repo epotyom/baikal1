@@ -2,13 +2,19 @@
 
 angular.module('baikalApp.controllers', ['ngRoute'])
 
-.controller('HeaderCtrl', ['$scope', '$routeParams', function($scope, $routeParams) {
-
-}])
-.controller('FooterCtrl', ['$scope', '$translate', 'Music', function($scope, $translate, Music) {
+.controller('HeaderCtrl', ['$scope', '$translate', '$routeParams', function($scope, $translate, $routeParams) {
+	$scope.other_key = $translate.use();
 	$scope.languageChange = function (key) {
 	    $translate.use(key);
+	    if (key == 'ru') {
+	    	$scope.other_key = 'en';
+	    } else {
+	    	$scope.other_key = 'ru';
+	    }
 	};
+}])
+.controller('FooterCtrl', ['$scope', 'Music', function($scope, $translate, Music) {
+
 
 	$scope.music = {action: 'play', current: 0};
 	$scope.music.list = Music.query(function() {

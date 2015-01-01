@@ -70,6 +70,7 @@
             </ul>
           </li>
           <li><a href="#/contacts" translate="CONTACTS">Контакты</a></li>
+          <li><a ng-click="languageChange('{{other_lang}}')"><img ng-src="images/icon-{{other_lang}}.png"></a></li>
         </ul>
         
       </div><!--/.nav-collapse -->
@@ -97,9 +98,7 @@
                 <span translate="COPYRIGHT_TEXT"></span>
                 &copy; 2014-2015, <span translate="COPYRIGHT_AUTHOR"></span>
                 &middot;
-                <a ng-click="languageChange('ru')">русский</a>
-                /
-                <a ng-click="languageChange('en')">english</a>
+                
           </div>
         </div> <!-- /row of widgets -->
       </div>
