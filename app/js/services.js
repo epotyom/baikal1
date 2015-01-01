@@ -20,12 +20,15 @@ angular.module('baikalApp.services', ['ngResource'])
           Music.playNext();
       })
       .bind('playing', function(){
+          console.log(Music.state+' -> play');
           Music.state = 'play';
       })      
       .bind('pause', function(){
+        console.log(Music.state+' -> pause');
           Music.state = 'pause';
       })
       .bind('waiting', function(){
+        console.log(Music.state+' -> loading');
           Music.state = 'loading';
       });
     });
