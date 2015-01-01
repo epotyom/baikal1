@@ -347,5 +347,5 @@ img.langauge-selector {
 
 img.langauge-selector:hover
 {
-	color: inherit;
+	color: rgba(255,255,255,0.8);
 }
