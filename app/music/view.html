@@ -1,0 +1,16 @@
+<!-- Main Content -->
+<div class="bloglist">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 well">
+                <h3 translate="MUSIC"></h3>
+                <div ng-repeat="song in music.list">
+                    <button type="button" class="btn btn-default btn-xs musicPlayButton" ng-click="musicPlayPause(music.action, song.id)" ng-attr-title="{{ 'MUSIC_PLAY' | translate }}">
+                         <span ng-class="{'glyphicon': true, 'glyphicon-play': (music.action == 'play'), 'glyphicon-pause': (music.action == 'pause' && music.current == song.id)}"></span>
+                    </button>              
+                    <span>{{song.artist}} - {{song.title}}</span>
+                </div>
+            </div>
+        </div>
+     </div>
+</div>

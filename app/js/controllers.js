@@ -19,8 +19,11 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 }])
 
 .controller('MusicCtrl', ['$scope', 'Music', function($scope, Music) {
-	$scope.music = {action: 'play', current: 0};
+	$scope.music = {state: 'pause', current: 0};
 	$scope.music.list = Music.query(function() {
+		for (var i = $scope.music.list.length - 1; i >= 0; i--) {
+			$scope.music.list[i].id = i;
+		};
 		document.getElementById('audio_mp3').src = $scope.music.list[0].mp3;
 		document.getElementById('audio_ogg').src = $scope.music.list[0].ogg;
 		jQuery('#audio_audio').load().bind('ended', function(){
@@ -28,13 +31,17 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 		});
 	});
 
-	$scope.musicPlayPause = function(action) {
-		if (action == 'play') {
-			$scope.music.action = "pause";
-			document.getElementById('audio_audio').play();
+	$scope.musicPlayPause = function(action, id) {
+		if (typeof id == 'undefined' || id == $scope.music.current) {
+			if (action == 'play') {
+				$scope.music.state = "pause";
+				document.getElementById('audio_audio').play();
+			} else {
+				$scope.music.state = "play";
+				document.getElementById('audio_audio').pause();
+			}
 		} else {
-			$scope.music.action = "play";
-			document.getElementById('audio_audio').pause();
+			$scope.musicPlay(id);
 		}
 	}
 
@@ -44,6 +51,7 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 		document.getElementById('audio_ogg').src = $scope.music.list[$scope.music.current].ogg;
 		jQuery('#audio_audio').load();
 		document.getElementById('audio_audio').play();
+		$scope.music.state = "play";
 	}
 
 	$scope.musicPlayNext = function() {
