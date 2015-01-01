@@ -13,9 +13,7 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 	    }
 	};
 }])
-.controller('FooterCtrl', ['$scope', 'Music', function($scope, $translate, Music) {
-
-
+.controller('FooterCtrl', ['$scope', 'Music', function($scope, Music) {
 	$scope.music = {action: 'play', current: 0};
 	$scope.music.list = Music.query(function() {
 		document.getElementById('audio_mp3').src = $scope.music.list[0].mp3;
