@@ -325,19 +325,19 @@ img.yoga-image{
 }
 
 .team-member-spring:hover img {
-    border-color: rgba(255,252,74,0.5);
+    border-color: rgba(255,252,74,0.4);
  }
 
  .team-member-summer:hover img {
-    border-color: rgba(29,205,0,0.5);
+    border-color: rgba(29,205,0,0.4);
  }
 
  .team-member-autumn:hover img {
-    border-color: rgba(205,34,0,0.5);
+    border-color: rgba(205,34,0,0.4);
  }
 
  .team-member-winter:hover img {
-    border-color: rgba(90,115,176,0.5);
+    border-color: rgba(90,115,176,0.4);
  }
 
 .team-member h4 {
