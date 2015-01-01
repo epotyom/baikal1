@@ -31,9 +31,9 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 		});
 	});
 
-	$scope.musicPlayPause = function(action, id) {
+	$scope.musicPlayPause = function(id) {
 		if (typeof id == 'undefined' || id == $scope.music.current) {
-			if (action == 'play') {
+			if ($scope.music.state == 'play') {
 				$scope.music.state = "pause";
 				document.getElementById('audio_audio').play();
 			} else {
