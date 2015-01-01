@@ -50,7 +50,6 @@ angular.module('baikalApp.services', ['ngResource'])
       document.getElementById('audio_ogg').src = Music.list[Music.current].ogg;
       jQuery('#audio_audio').load();
       document.getElementById('audio_audio').play();
-      Music.state = "play";
     }
 
     Music.playNext = function() {
