@@ -32,9 +32,6 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 		.bind('playing', function(){
 		    $scope.music.state = 'play';
 		})
-		.bind('loadstart', function(){
-		    $scope.music.state = 'loading';
-		})
 		.bind('waiting', function(){
 		    $scope.music.state = 'loading';
 		});
