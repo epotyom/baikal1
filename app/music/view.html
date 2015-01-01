@@ -9,8 +9,9 @@
                          <span ng-class="{'glyphicon': true, 'glyphicon-play': (music_state == 'pause' || music_current != song.id), 'glyphicon-pause': (music_state == 'play' && music_current == song.id), 'glyphicon-refresh spin': (music_state == 'loading' && music_current == song.id)}"></span>
                     </button>              
                     <span>{{song.artist}} - {{song.title}}</span>
-                    <button ng-click="logState()">test</button>
+
                 </div>
+                <button ng-click="logState()">test</button>
             </div>
         </div>
      </div>
