@@ -8,9 +8,9 @@ angular.module('baikalApp.controllers', ['ngRoute'])
     } else {
     	$scope.other_lang = 'ru';
     }
-	$scope.languageChange = function (key) {
-	    $translate.use(key);
-	    if (key == 'ru') {
+	$scope.languageChange = function () {
+	    $translate.use($scope.other_lang);
+	    if ($scope.other_lang == 'ru') {
 	    	$scope.other_lang = 'en';
 	    } else {
 	    	$scope.other_lang = 'ru';
