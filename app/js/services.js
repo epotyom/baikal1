@@ -16,10 +16,10 @@ angular.module('baikalApp.services', ['ngResource'])
       };
       document.getElementById('audio_mp3').src = Music.list[0].mp3;
       document.getElementById('audio_ogg').src = Music.list[0].ogg;
-      jQuery('#audio_audio').load();
+      angular.element('#audio_audio').load();
     });
 
-    jQuery('#audio_audio').bind('ended', function(){
+    angular.element('#audio_audio').bind('ended', function(){
         Music.playNext();
     })
     .bind('playing', function(){
