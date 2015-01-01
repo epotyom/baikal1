@@ -28,7 +28,8 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 		console.log('updateScope '+$scope.music_state);
 	}
 
-	updateScope();
+	$scope.music_state = Music.mstate;
+	$scope.music_current = Music.current;
 
   	Music.registerObserverCallback(updateScope);
 
