@@ -25,7 +25,6 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 		$scope.music_state = Music.mstate;
 		$scope.music_current = Music.current;
 		$scope.$digest();
-		console.log('updateScope '+$scope.music_state);
 	}
 
 	$scope.music_state = Music.mstate;
@@ -33,10 +32,6 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 
   	Music.registerObserverCallback(updateScope);
 
-	$scope.logState = function() {
-		console.log(Music.mstate);
-		Music.mstate = "test";
-	}
 }])
 
 .controller('PostlistCtrl', ['$scope', '$routeParams', '$translate', 'Post', 'Category', function($scope, $routeParams, $translate, Post, Category) {

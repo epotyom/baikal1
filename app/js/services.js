@@ -47,10 +47,8 @@ angular.module('baikalApp.services', ['ngResource'])
     });
 
     Music.updateState = function(state) {
-      console.log(Music.mstate+' -> '+state);
       Music.mstate = state;
       notifyObservers();
-      console.log(Music.mstate+' new value');
     }
 
     Music.playPause = function(id) {
