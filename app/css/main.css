@@ -324,6 +324,10 @@ img.yoga-image{
     border: 7px solid #fff;
 }
 
+.team-member-autumn:hover img {
+    border-color: rgba(255,252,74,0.5);
+ }
+
 .team-member h4 {
     margin-top: 25px;
     margin-bottom: 0;
