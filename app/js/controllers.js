@@ -27,15 +27,9 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 			scope.music_state = newVal;
 		}
 	});
-}])
-
-.controller('FooterCtrl', ['$scope', 'Music', function($scope, Music) {
-	$scope.music = Music;
-	$scope.music_state = Music.state;
-	$scope.music_current = Music.current;
-	$scope.$watch('Music.state', function (newVal, oldVal, scope) {
+	$scope.$watch('Music.current', function (newVal, oldVal, scope) {
 		if(newVal) { 
-			scope.music_state = newVal;
+			scope.music_current = newVal;
 		}
 	});
 }])

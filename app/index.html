@@ -81,11 +81,11 @@
 
   <div ng-view class="content-div"></div>
 
-  <footer class="footer" ng-controller="FooterCtrl">
+  <footer class="footer">
     <div class="footer2">
       <div class="top-bottom-container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6" ng-controller="MusicCtrl">
             <button type="button" class="btn btn-default btn-xs musicPlayButton" ng-click="music.playPause()" ng-attr-title="{{ 'MUSIC_PLAY' | translate }}">
                          <span ng-class="{'glyphicon': true, 'glyphicon-play': (music.state == 'pause'), 'glyphicon-pause': (music.state == 'play'), 'glyphicon-refresh spin': (music.state == 'loading')}"></span>
                     </button>
