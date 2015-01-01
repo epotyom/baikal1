@@ -3,13 +3,13 @@
 angular.module('baikalApp.controllers', ['ngRoute'])
 
 .controller('HeaderCtrl', ['$scope', '$translate', '$routeParams', function($scope, $translate, $routeParams) {
-	$scope.other_key = $translate.use();
+	$scope.other_lang = $translate.use();
 	$scope.languageChange = function (key) {
 	    $translate.use(key);
 	    if (key == 'ru') {
-	    	$scope.other_key = 'en';
+	    	$scope.other_lang = 'en';
 	    } else {
-	    	$scope.other_key = 'ru';
+	    	$scope.other_lang = 'ru';
 	    }
 	};
 }])
