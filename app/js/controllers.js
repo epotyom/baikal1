@@ -20,9 +20,9 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 
 .controller('MusicCtrl', ['$scope', 'Music', function($scope, Music) {
 	$scope.music = Music;
-	$scope.music_state = Music.state;
+	$scope.music_state = Music.mstate;
 	$scope.music_current = Music.current;
-	$scope.$watchCollection(function() { return [Music.state, Music.current]; }, function (newVal, oldVal) {
+	$scope.$watchCollection(function() { return [Music.mstate, Music.current]; }, function (newVal, oldVal) {
 		console.log(oldVal);
 		if(newVal) { 
 			$scope.music_state = newVal[0];
@@ -30,8 +30,8 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 		}
 	});
 	$scope.logState = function() {
-		console.log(Music.state);
-		Music.state = "test";
+		console.log(Music.mstate);
+		Music.mstate = "test";
 	}
 }])
 

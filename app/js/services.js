@@ -9,7 +9,7 @@ angular.module('baikalApp.services', ['ngResource'])
 
 .factory('Music', ['$resource',
   function($resource){
-    var Music = {state: 0 /* 0 - pause, 1 - play, 2 - loading */, current: 0};
+    var Music = {mstate: 0 /* 0 - pause, 1 - play, 2 - loading */, current: 0};
     Music.list = $resource('music/list.json', {}, {}).query(function() {
       for (var i = Music.list.length - 1; i >= 0; i--) {
         Music.list[i].id = i;
@@ -31,14 +31,14 @@ angular.module('baikalApp.services', ['ngResource'])
     });
 
     Music.updateState = function(state) {
-      console.log(Music.state+' -> '+state);
-      Music.state = state;
-      console.log(Music.state+' new value');
+      console.log(Music.mstate+' -> '+state);
+      Music.mstate = state;
+      console.log(Music.mstate+' new value');
     }
 
     Music.playPause = function(id) {
       if (typeof id == 'undefined' || id == Music.current) {
-        if (Music.state == 1) {
+        if (Music.mstate == 1) {
           document.getElementById('audio_audio').pause();
         } else {
           document.getElementById('audio_audio').play();
