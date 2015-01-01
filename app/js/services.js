@@ -22,14 +22,17 @@ angular.module('baikalApp.services', ['ngResource'])
       .bind('playing', function(){
           console.log(Music.state+' -> 1');
           Music.state = 1;
+          console.log(Music.state+' new value');
       })      
       .bind('pause', function(){
         console.log(Music.state+' -> 0');
           Music.state = 0;
+          console.log(Music.state+' new value');
       })
       .bind('waiting', function(){
         console.log(Music.state+' -> 2');
           Music.state = 2;
+          console.log(Music.state+' new value');
       });
     });
 
