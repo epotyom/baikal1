@@ -9,7 +9,27 @@ angular.module('baikalApp.services', ['ngResource'])
 
 .factory('Music', ['$resource',
   function($resource){
+    var observerCallbacks = [];
     var Music = {mstate: 0 /* 0 - pause, 1 - play, 2 - loading */, current: 0};
+
+    //register an observer
+    Music.registerObserverCallback = function(callback){
+      observerCallbacks.push(callback);
+    };
+
+    //call this when you know 'foo' has been changed
+    var notifyObservers = function(){
+      angular.forEach(observerCallbacks, function(callback){
+        callback();
+      });
+    };
+
+    //example of when you may want to notify observers
+    this.foo = someNgResource.query().$then(function(){
+      notifyObservers();
+    });
+
+    
     Music.list = $resource('music/list.json', {}, {}).query(function() {
       for (var i = Music.list.length - 1; i >= 0; i--) {
         Music.list[i].id = i;
@@ -35,6 +55,7 @@ angular.module('baikalApp.services', ['ngResource'])
     Music.updateState = function(state) {
       console.log(Music.mstate+' -> '+state);
       Music.mstate = state;
+      notifyObservers();
       console.log(Music.mstate+' new value');
     }
 
