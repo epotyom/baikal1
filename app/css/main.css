@@ -338,3 +338,12 @@ img.yoga-image{
     margin-top: 40px;
     margin-bottom: 30px;
 }
+
+img.langauge-selector {
+	border-radius: 10px;
+}
+
+img.langauge-selector:hover
+{
+	background-color: rgba(255, 255, 255, 0.4);
+}
