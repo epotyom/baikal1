@@ -16,18 +16,20 @@ angular.module('baikalApp.services', ['ngResource'])
       };
       document.getElementById('audio_mp3').src = Music.list[0].mp3;
       document.getElementById('audio_ogg').src = Music.list[0].ogg;
-      jQuery('#audio_audio').load().bind('ended', function(){
-          Music.playNext();
-      })
-      .bind('playing', function(){
-          Music.updateState(1);
-      })      
-      .bind('pause', function(){
-          Music.updateState(0);
-      })
-      .bind('waiting', function(){        
-          Music.updateState(2);          
-      });
+      jQuery('#audio_audio').load();
+    });
+
+    jQuery('#audio_audio').bind('ended', function(){
+        Music.playNext();
+    })
+    .bind('playing', function(){
+        Music.updateState(1);
+    })      
+    .bind('pause', function(){
+        Music.updateState(0);
+    })
+    .bind('waiting', function(){        
+        Music.updateState(2);          
     });
 
     Music.updateState = function(state) {
