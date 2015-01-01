@@ -89,6 +89,7 @@
             <button type="button" class="btn btn-default btn-xs musicPlayButton" ng-click="music.playPause()" ng-attr-title="{{ 'MUSIC_PLAY' | translate }}">
                          <span ng-class="{'glyphicon': true, 'glyphicon-play': (music.state == 'pause'), 'glyphicon-pause': (music.state == 'play'), 'glyphicon-refresh spin': (music.state == 'loading')}"></span>
                     </button>
+                    {{music.state}}
             <audio id="audio_audio">
               <source id="audio_ogg" type="audio/ogg" >
               <source id="audio_mp3" type="audio/mp3" >
