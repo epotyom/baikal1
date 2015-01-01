@@ -24,6 +24,7 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 	var updateScope = function () {
 		$scope.music_state = Music.mstate;
 		$scope.music_current = Music.current;
+		console.log($scope.music_state);
 	}
 
 	updateScope();
