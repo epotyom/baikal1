@@ -18,7 +18,7 @@ angular.module('baikalApp.routes', ['ngRoute'])
   .when('/about/yoga', {
     templateUrl: 'post/yoga.html',
   })
-  .when('/about/music', {
+  .when('/music', {
     templateUrl: 'music/view.html',
     controller: 'MusicCtrl',
   })
