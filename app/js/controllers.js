@@ -17,13 +17,14 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 	    }
 	};
 }])
-.controller('FooterCtrl', ['$scope', 'Music', function($scope, Music) {
+
+.controller('MusicCtrl', ['$scope', 'Music', function($scope, Music) {
 	$scope.music = {action: 'play', current: 0};
 	$scope.music.list = Music.query(function() {
 		document.getElementById('audio_mp3').src = $scope.music.list[0].mp3;
 		document.getElementById('audio_ogg').src = $scope.music.list[0].ogg;
 		jQuery('#audio_audio').load().bind('ended', function(){
-		    playNext();
+		    $scope.musicPlayNext();
 		});
 	});
 
@@ -36,21 +37,30 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 			document.getElementById('audio_audio').pause();
 		}
 	}
-	var playNext = function() {
-		$scope.music.current = ($scope.music.current + 1) % $scope.music.list.length;
+
+	$scope.musicPlay = function(id) {
+		$scope.music.current = id;
 		document.getElementById('audio_mp3').src = $scope.music.list[$scope.music.current].mp3;
 		document.getElementById('audio_ogg').src = $scope.music.list[$scope.music.current].ogg;
 		jQuery('#audio_audio').load();
 		document.getElementById('audio_audio').play();
+	}
+
+	$scope.musicPlayNext = function() {
+		$scope.musicPlay(($scope.music.current + 1) % $scope.music.list.length);		
 	}
 }])
 
 .controller('PostlistCtrl', ['$scope', '$routeParams', '$translate', 'Post', 'Category', function($scope, $routeParams, $translate, Post, Category) {
 	$scope.categories = Category.get(function(categories) {
 		$scope.category = categories[$routeParams.category+'_'+$translate.use()];
-		$scope.cid = $routeParams.category;
 	});
 	$scope.posts = Post.query({pid: $routeParams.category, cid: $routeParams.category});
+	for (var i = $scope.posts - 1; i >= 0; i--) {
+		if (!$scope.posts[i].link) {
+			$scope.posts[i].link = "#/post/"+$routeParams.category+"/"+$scope.posts[i].id;
+		}
+	};
 }])
 
 .controller('PostviewCtrl', ['$scope', '$routeParams', 'Post', function($scope, $routeParams, Post) {
@@ -63,18 +73,6 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 
 .controller('LeagueCtrl', ['$scope', 'Post', function($scope, Post) {
   $scope.post = Post.get({pid: "league", cid: "league"});
-}])
-
-.controller('ExpeditionsCtrl', ['$scope', 'Post', function($scope, Post) {
-
-}])
-
-.controller('SkypelessonsCtrl', ['$scope', function($scope) {
-
-}])
-
-.controller('YogaCtrl', ['$scope', function($scope) {
-
 }])
 
 .controller('RecordsCtrl', ['$scope', '$routeParams', 'Media', function($scope, $routeParams, Media) {

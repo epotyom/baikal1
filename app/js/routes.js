@@ -14,10 +14,13 @@ angular.module('baikalApp.routes', ['ngRoute'])
   })
   .when('/about/skype-lessons', {
     templateUrl: 'post/skype-lessons.html',
-    controller: 'SkypelessonsCtrl',
   })
   .when('/about/yoga', {
     templateUrl: 'post/yoga.html',
+  })
+  .when('/about/music', {
+    templateUrl: 'music/view.html',
+    controller: 'MusicCtrl',
   })
   .when('/about/:category', {
     templateUrl: 'post/list.html',
@@ -33,7 +36,6 @@ angular.module('baikalApp.routes', ['ngRoute'])
   })
   .when('/news/expeditions', {
     templateUrl: 'expeditions/main.html',
-    controller: 'ExpeditionsCtrl',
   })
   .when('/news/records', {
     templateUrl: 'media/media.html',
