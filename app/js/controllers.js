@@ -56,7 +56,7 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 		$scope.category = categories[$routeParams.category+'_'+$translate.use()];
 	});
 	Post.query({pid: $routeParams.category, cid: $routeParams.category}, function(posts) {
-		for (var i = posts - 1; i >= 0; i--) {
+		for (var i = posts.length - 1; i >= 0; i--) {
 			if (!posts[i].link) {
 				posts[i].link = "#/post/"+$routeParams.category+"/"+posts[i].id;
 			}
