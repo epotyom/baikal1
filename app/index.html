@@ -86,9 +86,9 @@
       <div class="top-bottom-container">
         <div class="row">
           <div class="col-md-6" ng-controller="MusicCtrl">
-            <button type="button" class="btn btn-default btn-xs musicPlayButton" ng-click="musicPlayPause(music.action)" ng-attr-title="{{ 'MUSIC_PLAY' | translate }}">
-              <span ng-class="{'glyphicon': true, 'glyphicon-play': (music.action == 'play'), 'glyphicon-pause': (music.action == 'pause')}"></span>
-            </button>
+            <button type="button" class="btn btn-default btn-xs musicPlayButton" ng-click="musicPlayPause()" ng-attr-title="{{ 'MUSIC_PLAY' | translate }}">
+                         <span ng-class="{'glyphicon': true, 'glyphicon-play': (music.state == 'pause'), 'glyphicon-pause': (music.state == 'play'), 'glyphicon-refresh spin': (music.state == 'loading')}"></span>
+                    </button>
             <audio id="audio_audio">
               <source id="audio_ogg" type="audio/ogg" >
               <source id="audio_mp3" type="audio/mp3" >

@@ -28,6 +28,15 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 		document.getElementById('audio_ogg').src = $scope.music.list[0].ogg;
 		jQuery('#audio_audio').load().bind('ended', function(){
 		    $scope.musicPlayNext();
+		})
+		.bind('playing', function(){
+		    $scope.music.state = 'play';
+		})
+		.bind('loadstart', function(){
+		    $scope.music.state = 'loading';
+		})
+		.bind('waiting', function(){
+		    $scope.music.state = 'loading';
 		});
 	});
 
@@ -35,10 +44,10 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 		if (typeof id == 'undefined' || id == $scope.music.current) {
 			if ($scope.music.state == 'play') {
 				$scope.music.state = "pause";
-				document.getElementById('audio_audio').play();
+				document.getElementById('audio_audio').pause();
 			} else {
 				$scope.music.state = "play";
-				document.getElementById('audio_audio').pause();
+				document.getElementById('audio_audio').play();
 			}
 		} else {
 			$scope.musicPlay(id);
