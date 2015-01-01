@@ -341,5 +341,11 @@ img.yoga-image{
 
 img.langauge-selector {
 	border-radius: 10px;
-	border: 2px dotted transparent;
+	border: 2px dotted;
+	color:transparent;
+}
+
+img.langauge-selector:hover
+{
+	color: inherit;
 }
