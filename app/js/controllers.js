@@ -55,12 +55,13 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 	$scope.categories = Category.get(function(categories) {
 		$scope.category = categories[$routeParams.category+'_'+$translate.use()];
 	});
-	$scope.posts = Post.query({pid: $routeParams.category, cid: $routeParams.category});
-	for (var i = $scope.posts - 1; i >= 0; i--) {
-		if (!$scope.posts[i].link) {
-			$scope.posts[i].link = "#/post/"+$routeParams.category+"/"+$scope.posts[i].id;
-		}
-	};
+	$scope.posts = Post.query({pid: $routeParams.category, cid: $routeParams.category}, function(posts) {
+		for (var i = posts - 1; i >= 0; i--) {
+			if (!posts[i].link) {
+				posts[i].link = "#/post/"+$routeParams.category+"/"+posts[i].id;
+			}
+		};
+	});	
 }])
 
 .controller('PostviewCtrl', ['$scope', '$routeParams', 'Post', function($scope, $routeParams, Post) {
