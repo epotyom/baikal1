@@ -30,6 +30,7 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 	});
 	$scope.logState = function() {
 		console.log(Music.state);
+		Music.state = "test";
 	}
 }])
 
