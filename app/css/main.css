@@ -322,6 +322,12 @@ img.yoga-image{
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
+	-o-transition:border-color .2s ease-out;
+	-ms-transition:border-color .2s ease-out;
+	-moz-transition:border-color .2s ease-out;
+	-webkit-transition:border-color .2s ease-out;
+	/* ...and now override with proper CSS property */
+	transition:border-color .2s ease-out;
 }
 
 .team-member-spring:hover img {
