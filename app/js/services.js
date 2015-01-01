@@ -21,6 +21,9 @@ angular.module('baikalApp.services', ['ngResource'])
       })
       .bind('playing', function(){
           Music.state = 'play';
+      })      
+      .bind('pause', function(){
+          Music.state = 'pause';
       })
       .bind('loadstart', function(){        
           Music.state = 'loading';
@@ -33,7 +36,6 @@ angular.module('baikalApp.services', ['ngResource'])
     Music.playPause = function(id) {
       if (typeof id == 'undefined' || id == Music.current) {
         if (Music.state == 'play') {
-          Music.state = "pause";
           document.getElementById('audio_audio').pause();
         } else {
           document.getElementById('audio_audio').play();
