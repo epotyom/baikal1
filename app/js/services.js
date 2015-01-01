@@ -7,8 +7,8 @@ angular.module('baikalApp.services', ['ngResource'])
     return $resource('photo/:season.json', {}, {});
   }])
 
-.factory('Music', ['$resource', '$scope',
-  function($resource, $scope){
+.factory('Music', ['$resource',
+  function($resource){
     var Music = {state: 'pause', current: 0};
     Music.list = $resource('music/list.json', {}, {}).query(function() {
       for (var i = Music.list.length - 1; i >= 0; i--) {
