@@ -25,9 +25,6 @@ angular.module('baikalApp.services', ['ngResource'])
       .bind('pause', function(){
           Music.state = 'pause';
       })
-      .bind('loadstart', function(){        
-          Music.state = 'loading';
-      })
       .bind('waiting', function(){
           Music.state = 'loading';
       });
