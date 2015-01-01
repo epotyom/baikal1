@@ -28,6 +28,9 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 			scope.music_current = newVal[1];
 		}
 	});
+	$scope.logState = function() {
+		console.log(Music.state);
+	}
 }])
 
 .controller('PostlistCtrl', ['$scope', '$routeParams', '$translate', 'Post', 'Category', function($scope, $routeParams, $translate, Post, Category) {
