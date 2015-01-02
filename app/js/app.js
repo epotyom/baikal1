@@ -72,7 +72,8 @@ config(['$routeProvider', function($routeProvider) {
     SKYPE_TEXT: 'baikalicekapitan',
     E_MAIL: 'e-mail',
     E_MAIL_TEXT: 'aburmeister@mail.ru',
-    MUSIC_PLAY: 'Включить музыку',
+    MUSIC_PLAY: 'Музыка',
+    MUSIC: 'Музыка',
     NEWS_MEDIA: 'Новости: СМИ',
     EXPEDITIONS_SUBTITLE: 'Круглый год м можем предложить вам потрясающие экспедиции.'
   });
@@ -123,6 +124,7 @@ config(['$routeProvider', function($routeProvider) {
 	E_MAIL: 'e-mail',
 	E_MAIL_TEXT: 'aburmeister@mail.ru',
     MUSIC_PLAY: 'Play music',
+    MUSIC: 'Music',
     NEWS_MEDIA: 'Media news',
     EXPEDITIONS_SUBTITLE: 'English expeditions subtitle.'
   });
