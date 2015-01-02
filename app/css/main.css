@@ -193,6 +193,10 @@ a.dropdown-toggle {
 .musicPlayButton:active,
 .musicPlayButton.active { color:rgba(255,255,255,.8);}
 
+.musicListPlayButton{
+	padding: 10px 20px;
+}
+
 
 .bloglist {
 	padding-top: 70px;
