@@ -8,7 +8,7 @@
                     <button type="button" class="btn btn-default musicListPlayButton" ng-click="music.playPause(song.id)" ng-attr-title="{{ 'MUSIC_PLAY' | translate }}">
                          <span ng-class="{'glyphicon': true, 'glyphicon-play': (music_state == 0 || music_current != song.id), 'glyphicon-pause': (music_state == 1 && music_current == song.id), 'glyphicon-refresh spin': (music_state == 2 && music_current == song.id)}"></span>
                     </button>              
-                    <span>{{song.artist}} - {{song.title}}</span>
+                    <span>{{{res: song, attr: 'artist'} | translate_res}} - {{song.title}}</span>
 
                 </div>
             </div>
