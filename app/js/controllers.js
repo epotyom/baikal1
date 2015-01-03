@@ -21,7 +21,7 @@ angular.module('baikalApp.controllers', ['ngRoute'])
 .controller('MusicCtrl', ['$scope', 'Music', function($scope, Music) {
 	$scope.background = {
 		'background-image': 'url(images/bg_music.jpg)',
-		'padding-top': '140px';
+		'padding-top': '140px'
 	};
 
 	$scope.music = Music;
