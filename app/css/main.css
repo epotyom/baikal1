@@ -201,6 +201,9 @@ a.dropdown-toggle {
 	padding: 3px;
 }
 
+.musicSongsList {
+    background-color: rgba(244, 244, 244, 0.5);
+}
 
 .bloglist {
 	padding-top: 70px;
