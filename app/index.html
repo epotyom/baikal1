@@ -87,7 +87,7 @@
     <div class="footer2">
       <div class="top-bottom-container">
         <div class="row">
-          <div class="pull-left" ng-controller="MusicCtrl">
+          <div class="pull-left" style="padding-left: 10px;" ng-controller="MusicCtrl">
             <button type="button" class="btn btn-default btn-xs musicPlayButton" ng-click="music.playPause()" ng-attr-title="{{ 'MUSIC_PLAY' | translate }}">
                          <span ng-class="{'glyphicon': true, 'glyphicon-play': (music_state == 0), 'glyphicon-pause': (music_state == 1), 'glyphicon-refresh spin': (music_state == 2)}"></span>
                     </button>
@@ -96,7 +96,7 @@
               <source id="audio_mp3" type="audio/mp3" >
             </audio>
           </div>
-          <div class="text-right">
+          <div class="text-right" style="padding-right: 10px;">
                 <span translate="COPYRIGHT_TEXT"></span>
                 &copy; 2014-2015, <span translate="COPYRIGHT_AUTHOR"></span>
                 
