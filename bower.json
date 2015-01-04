@@ -14,6 +14,7 @@
     "angular-translate": "latest",
     "angular-translate-storage-local": "latest",
     "angular-translate-storage-cookie": "latest",
-    "angular-cookies":  "latest"
+    "angular-cookies":  "latest",
+    "angular-touch": "latest",
   }
 }
