@@ -1,5 +1,12 @@
 [
 	{
+		"mp3": "music/burmeyster-kseniya-black-angel.mp3",
+		"ogg": "music/burmeyster-kseniya-black-angel.ogg",
+		"title": "Чёрный ангел",
+		"artist_ru": "Ксюша Бурмейстер",
+		"artist_en": "Kseniya Burmeister"
+	},
+	{
 		"mp3": "music/burmeyster-kseniya-my-star.mp3",
 		"ogg": "music/burmeyster-kseniya-my-star.ogg",
 		"title": "Моя звезда",
@@ -14,16 +21,16 @@
 		"artist_en": "Kseniya Burmeister"
 	},
 	{
-		"mp3": "music/burmeiyster-kseniya-america.mp3",
-		"ogg": "music/burmeiyster-kseniya-america.ogg",
-		"title": "America",
+		"mp3": "music/burmeyster-kseniya-future.mp3",
+		"ogg": "music/burmeyster-kseniya-future.ogg",
+		"title": "Будущее",
 		"artist_ru": "Ксюша Бурмейстер",
 		"artist_en": "Kseniya Burmeister"
 	},
 	{
-		"mp3": "music/burmeyster-kseniya-future.mp3",
-		"ogg": "music/burmeyster-kseniya-future.ogg",
-		"title": "Будущее",
+		"mp3": "music/burmeiyster-kseniya-america.mp3",
+		"ogg": "music/burmeiyster-kseniya-america.ogg",
+		"title": "America",
 		"artist_ru": "Ксюша Бурмейстер",
 		"artist_en": "Kseniya Burmeister"
 	},
@@ -33,12 +40,5 @@
 		"title": "Snowflakes",
 		"artist_ru": "Ксюша Бурмейстер",
 		"artist_en": "Kseniya Burmeister"
-	},
-	{
-		"mp3": "music/burmeyster-kseniya-black-angel.mp3",
-		"ogg": "music/burmeyster-kseniya-black-angel.ogg",
-		"title": "Чёрный ангел",
-		"artist_ru": "Ксюша Бурмейстер",
-		"artist_en": "Kseniya Burmeister"
-	}   
+	} 
 ]
