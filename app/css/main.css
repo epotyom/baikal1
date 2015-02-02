@@ -422,3 +422,11 @@ img.langauge-selector:hover
     transform: rotate(360deg);
   }
 }
+
+.btn-main {
+    padding: 15px 65px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.33;
+    border-radius: 12px;
+}
