@@ -385,6 +385,7 @@ img.langauge-selector {
 	border-radius: 10px;
 	border: 1px solid;
 	color:transparent;
+    margin-top: -5px;
 }
 
 img.langauge-selector:hover
