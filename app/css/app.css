@@ -69,6 +69,10 @@
 }
 
 .main-menu {
-  font-weight: bold;
+  /*font-weight: bold;*/
+}
+
+.body {
+  font-size: 16px;
 }
 
