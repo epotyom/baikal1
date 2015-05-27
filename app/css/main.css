@@ -155,6 +155,11 @@ a.dropdown-toggle {
 	.slide-preview .carousel-indicators:active,.slide-preview .carousel-indicators:hover {
 	    opacity: 1;
 	}
+    .expeditions-container {
+        border-radius: 10px 10px 400px 250px;
+        padding-right: 150px;
+        padding-left: 50px;
+    }
 }
 /* Indicators list style */
 .slide-preview .carousel-indicators li {
