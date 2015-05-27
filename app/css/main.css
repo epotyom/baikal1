@@ -300,7 +300,15 @@ html,body,.content-div {
 
 #mainButton {
 	white-space: normal;
+    background-image: -webkit-linear-gradient(top, rgba(255,155,34,0.7) 0%, rgba(255,140,0,0.7) 100%);
+    background-image: linear-gradient(to bottom, rgba(255,155,34,0.7) 0%, rgba(255,140,0,0.7) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffFF9B22', endColorstr='#ffFF8C00', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
+
+#mainButton:hover,
+#mainButton:focus { background: rgba(255,155,34,0.9); }
+#mainButton:active {    background: rgba(255,140,0,0.9); }
 
 img.media-image{
 	max-width: 200px;
