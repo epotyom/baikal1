@@ -158,11 +158,12 @@ a.dropdown-toggle {
     .expeditions-container {
         /*border-radius: 10px 10px 400px 250px;
         padding-right: 150px;
-        padding-left: 50px;*/
-        border-radius: 20px 20px 30px 30px;
+        padding-left: 50px;
+        border: 4px solid #eee;*/
+        border-radius: 30px 30px 50px 50px;
         padding-right: 20px;
         padding-left: 20px;
-        border: 4px solid #eee;
+        
     }
     h2.expeditions-header {
         margin-top: 10px;
