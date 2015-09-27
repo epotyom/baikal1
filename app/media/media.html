@@ -13,9 +13,7 @@
                                 {{ {res: post, attr: 'title'} | translate_res}}
                             </h4>
                         </a>
-                        <p>
-                            {{ {res: post, attr: 'description'} | translate_res}}
-                        </p>                    
+                        <div ng-bind-html="{res: post, attr: 'description'} | translate_res | raw_html"></div>                  
                         <p class="text-muted pull-right">{{post.date  | date:'dd.MM.yyyy'}}</p>
                     </div>                
                 </div>
