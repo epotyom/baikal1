@@ -28,6 +28,7 @@ angular.module('baikalApp.home', ['ngRoute'])
 	};
 	var curmonth = new Date()
 	var is_winter = false;
+	var background;
 	if ($route.current.data) {
 		if ($route.current.data == 'winter') {
 			is_winter = true;
@@ -37,11 +38,19 @@ angular.module('baikalApp.home', ['ngRoute'])
 	}
 	if (is_winter) {
 		$scope.journey_button_img = 'jeep';
-		$scope.home_background.background = 'url(images/bg_header_winter.jpg) no-repeat top center fixed';
+		background = 'url(images/bg_header_winter.jpg) no-repeat top center fixed';
 	} else {
 		$scope.journey_button_img = 'sailboat';
-		$scope.home_background.background = 'url(images/bg_header_summer.jpg) no-repeat top center fixed';
+		background = 'url(images/bg_header_summer.jpg) no-repeat top center fixed';
 	}
+
+	$scope.home_background = {
+		'background': background,
+		'-webkit-background-size': 'cover',
+		'-moz-background-size': 'cover',
+		'-o-background-size': 'cover',
+		'background-size': 'cover',
+	};
 	
 	//jQuery('#mainButton').popover();
 	$scope.mainButtonClick = function() {
