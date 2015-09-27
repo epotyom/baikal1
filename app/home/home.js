@@ -37,10 +37,10 @@ angular.module('baikalApp.home', ['ngRoute'])
 	}
 	if (is_winter) {
 		$scope.journey_button_img = 'jeep';
-		$scope.home_background['background'] = 'url(images/bg_header_winter.jpg) no-repeat top center fixed';
+		$scope.home_background.background = 'url(images/bg_header_winter.jpg) no-repeat top center fixed';
 	} else {
 		$scope.journey_button_img = 'sailboat';
-		$scope.home_background['background'] = 'url(images/bg_header_summer.jpg) no-repeat top center fixed';
+		$scope.home_background.background = 'url(images/bg_header_summer.jpg) no-repeat top center fixed';
 	}
 	
 	//jQuery('#mainButton').popover();
