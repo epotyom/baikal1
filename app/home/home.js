@@ -28,7 +28,7 @@ angular.module('baikalApp.home', ['ngRoute'])
 	};
 	var curmonth = new Date()
 	var is_winter = false;
-	if ($route.current) {
+	if ($route.current.data) {
 		if ($route.current.data == 'winter') {
 			is_winter = true;
 		}
