@@ -8,7 +8,7 @@
                 <div class="row">
                     <div class="col-md-12 col-lg-12">
                         <img class="media-image pull-left" ng-src="{{post.image}}" />
-                        <a target="_blank" ng-href="{res: post, attr: 'link'} | translate_res">
+                        <a target="_blank" ng-href="{{ {res: post, attr: 'link'} | translate_res }}">
                             <h4 class="post-title">
                                 {{ {res: post, attr: 'title'} | translate_res}}
                             </h4>
