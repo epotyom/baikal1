@@ -17,6 +17,13 @@ angular.module('baikalApp.home', ['ngRoute'])
 		'-o-background-size': 'cover',
 		'background-size': 'cover',
 	};
+	var curmonth = new Date()
+	if (curmonth < 4 || curmonth > 11) {
+		$scope.journey_button_img = 'jeep';
+	} else {
+		$scope.journey_button_img = 'sailboat';
+	}
+	
 	//jQuery('#mainButton').popover();
 	$scope.mainButtonClick = function() {
 
