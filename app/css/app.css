@@ -67,11 +67,11 @@
   
   /* menu on the right in mobile version */
   .navbar-inverse {
-    background: none;
+    /*background: none;*/
     border-bottom: none;
   }
   .navbar-inverse .navbar-header {
-    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.5);
+    /*background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.5);*/
   }
   .navbar-collapse ul {
     background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.5);
