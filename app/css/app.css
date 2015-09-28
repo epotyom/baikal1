@@ -72,6 +72,8 @@
   }
   .navbar-collapse ul {
     background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.5);
+    width: auto;
+    text-align: right;
   }
   .navbar-inverse .navbar-brand {
     font-size: 16px;
