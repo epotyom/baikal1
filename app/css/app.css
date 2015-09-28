@@ -62,6 +62,20 @@
   .navbar-inverse .navbar-brand span{
     padding-left: 35px;
   }
+  
+  /* menu on the right in mobile version */
+  .navbar-inverse {
+    background: none;
+  }
+  .navbar-inverse .navbar-header {
+    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.5);
+  }
+  .navbar-collapse ul {
+    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.5);
+  }
+  .navbar-inverse .navbar-brand {
+    font-size: 16px;
+  }
 }
 
 .well-trans {
