@@ -65,6 +65,10 @@ angular.module('baikalApp.controllers', ['ngRoute'])
   $scope.post = Post.get({pid: "league", cid: "league"});
 }])
 
+.controller('BaikalCtrl', ['$scope', 'Post', function($scope, Post) {
+  $scope.post = Post.get({pid: "baikal", cid: "baikal"});
+}])
+
 .controller('RecordsCtrl', ['$scope', '$routeParams', 'Media', function($scope, $routeParams, Media) {
 	$scope.medias = Media.query({pid: "records"});
 	$scope.title = "RECORDS";

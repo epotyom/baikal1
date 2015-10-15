@@ -1,0 +1,15 @@
+{
+	"id": "Весна",
+	"title_ru": "Экспедиции – весна. Вдогонку за льдами",
+	"title_en": "Expeditions - spring. In pursuit of the ice",
+	"text_ru": "<p><b>Сроки: 25 мая – 3 июня.</b></p><p>Уникальное время на Байкале, когда озеро освобождается ото льда и происходит это с юга на север в течение двух недель. Путешествуя на корабле можно увидеть летние пейзажи с огромными льдинами, вынесенными на берег, а если двигаться по ледяной кромке, то можно сделать уникальные кадры с нерпами на льду, причем с очень близкого расстояния.</p><p>Как раз в это время выходит на берег медведь после зимней спячки,- только в это время возможна его фотосьемка, которая будет специально подготовлена для нас опытными егерями. Они подготовят приваду на берегу, куда и выйдут медведи прямо под наши объективы. На эту сьемку запланированы два дня. В финале экспедиции – суточный отдых на базе в бухте Заворотная с баней, пиром и негодованием по поводу скорого отъезда.</p>",
+	"text_en": "<p><b>Time: May,25 - June,3</b></p><p>A unique time on Baikal, when the lake is getting rid of the ice. It happens from South to North for two weeks. Traveling on the boat you can see summer views with huge ice floes brought to the shore. If you move down the ice edges, you can take unique pictures of the seal on the ice, very close.</p><p>Only in this period of time it’s possible to film a bear coming to the shore after hibernation. The shooting will be prepared specifically for you by experienced foresters. They will make a bait on the shore for a bear to come right in front of your camera. This photo-shooting trip takes two days. In the end of the expedition there is a 24hour relaxing at the camp in Zavorotnaya bay, with banya (Russian sauna – “must do”), feast and indignation about the imminent departure.</p>",
+    "style": {
+        "background": "url('images/bg_header_spring.jpg') no-repeat top center fixed",
+        "-webkit-background-size": "cover",
+        "-moz-background-size": "cover",
+        "-o-background-size": "cover",
+        "background-size": "cover"
+    },
+	"date": "2015-10-15T18:25:43.511Z"
+}

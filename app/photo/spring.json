@@ -3,32 +3,32 @@
     {
 		"url": "images/photo/spring/1.jpg",
 		"thumb": "images/photo/spring/TN_1.jpg",
-		"title_ru": "1",
-		"title_en": "1",
+		"title_ru": "",
+		"title_en": "",
 		"description_ru": "",
 		"description_en": ""
 	},
 	{
 		"url": "images/photo/spring/2.jpg",
 		"thumb": "images/photo/spring/TN_2.jpg",
-		"title_ru": "2",
-		"title_en": "2",
+		"title_ru": "",
+		"title_en": "",
 		"description_ru": "",
 		"description_en": ""
 	},
 	{
 		"url": "images/photo/spring/3.jpg",
 		"thumb": "images/photo/spring/TN_3.jpg",
-		"title_ru": "3",
-		"title_en": "3",
+		"title_ru": "",
+		"title_en": "",
 		"description_ru": "",
 		"description_en": ""
 	},
 	{
 		"url": "images/photo/spring/4.jpg",
 		"thumb": "images/photo/spring/TN_4.jpg",
-		"title_ru": "4",
-		"title_en": "4",
+		"title_ru": "",
+		"title_en": "",
 		"description_ru": "",
 		"description_en": ""
 	}

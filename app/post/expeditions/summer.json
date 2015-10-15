@@ -1,0 +1,15 @@
+{
+    "id": "Лето",
+    "title_ru": "Экспедиции – лето. Зеркальный Байкал.",
+    "title_en": "Expeditions - summer. Specular Baikal",
+    "text_ru": "<p><b>Сроки: 20 – 28 июня.</b></p><p>В это время Байкал тих, спокоен и зеркален. Цветение. Время миражей, которые зримы, снимаемы и порой продолжительны, время утренних туманов и самых магических пейзажей. Маршрут экспедиции рассчитан на наиболее эффектную пейзажную сьемку, включая остров Ольхон, однако предусмотрена и съемка лежбища нерпы на острове Ушканьем. Также предполагается посещение живописного Чивыркуйского залива и рыбалка на крупную щуку.</p>",
+    "text_en": "<p><b>Time: June, 20-28</b></p><p>At this time Baikal is calm, quiet and specular. Everything blooms. It's the time of mirages. You can shoot a visible long-lasting mirage, morning mist and magical landscapes.  The rout is made for the most spectacular landscape shooting, including Olkhon island; but you can also take pictures of seal’s rookery on the Ushkany island. A visit to the picturesque Chivyrkuysky Bay with fishing for big pike is planned as well.</p>",
+    "style": {
+        "background": "url('images/bg_header_summer.jpg') no-repeat top center fixed",
+        "-webkit-background-size": "cover",
+        "-moz-background-size": "cover",
+        "-o-background-size": "cover",
+        "background-size": "cover"
+    },
+    "date": "2015-10-15T18:25:43.511Z"
+}

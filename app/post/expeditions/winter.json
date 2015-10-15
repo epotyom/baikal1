@@ -1,0 +1,15 @@
+{
+    "id": "Зима",
+    "title_ru": "Экспедиции – зима",
+    "title_en": "Expeditions - winter",
+    "text_ru": "<p>Винтер ис каминu!</p>",
+    "text_en": "<p>Winter is coming!</p>",
+    "style": {
+        "background": "url('images/bg_header_winter.jpg') no-repeat top center fixed",
+        "-webkit-background-size": "cover",
+        "-moz-background-size": "cover",
+        "-o-background-size": "cover",
+        "background-size": "cover"
+    },
+    "date": "2015-10-15T18:25:43.511Z"
+}

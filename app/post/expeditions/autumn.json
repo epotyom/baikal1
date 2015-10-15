@@ -1,0 +1,15 @@
+{
+    "id": "Осень",
+    "title_ru": "Экспедиции – Осенние краски Байкала",
+    "title_en": "Expeditions - Autumn colors",
+    "text_ru": "<p><b>Сроки: 4 – 12 октября.</b></p><p>После сентябрьских штормов наступает затишье бабьего лета. Горные хребты в снегу, тайга расцвечена осенью от золота до пурпура, яркая синь воды, голубизна неба, прозрачный воздух, открытая даль – все это особая стихия фотографии, которую стоит испытать и на Байкале. Кроме пейзажной съемки, открываются возможности снимать растительность очень щедрую и разнообразную, ягоды и грибы в изобилии. Рыбалка обещает быть.</p>",
+    "text_en": "<p><b>Time: October, 4-12</b></p><p>After September storms the Indian summer comes. Mountain ranges are covered with snow, taiga is colored by autumn in all shades from golden to crimson, water is ultramarine, the sky is bright blue, and the air is fresh and clear. All that is a special atmosphere of the photo that you should experience yourself. You can take pictures of the rich flora, berries, and mushrooms as well as of the landscape. The fishing is also planned.</p>",
+    "style": {
+        "background": "url('images/bg_header_autumn.jpg') no-repeat top center fixed",
+        "-webkit-background-size": "cover",
+        "-moz-background-size": "cover",
+        "-o-background-size": "cover",
+        "background-size": "cover"
+    },
+    "date": "2015-10-15T18:25:43.511Z"
+}
